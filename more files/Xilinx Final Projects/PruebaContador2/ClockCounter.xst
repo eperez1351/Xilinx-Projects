@@ -1,0 +1,5 @@
+set -tmpdir "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/xst/projnav.tmp"
+set -xsthdpdir "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/xst"
+elaborate
+-ifn ClockCounter.prj
+-ifmt mixed

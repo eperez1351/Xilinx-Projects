@@ -1,0 +1,5 @@
+[Inputs]
+clk
+[Outputs]
+=output4bit[3:0]=
+[BiDir]

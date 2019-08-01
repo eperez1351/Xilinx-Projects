@@ -1,0 +1,15 @@
+AR shiftreg4bitin16bitout behavioral "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/ShiftReg4bitIN16bitOUT.vhd" sub00/vhpl09 1560121853
+AR clkdivider behavioral "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/clkDivider.vhd" sub00/vhpl07 1560121851
+EN shiftreg4bitin16bitout NULL "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/ShiftReg4bitIN16bitOUT.vhd" sub00/vhpl08 1560121852
+MO key44 NULL key44.v vlg15/key44.bin 1560121846
+EN clkdivider NULL "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/clkDivider.vhd" sub00/vhpl06 1560121850
+EN sevensegdisp NULL "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/sevenSegDisp.vhd" sub00/vhpl11 1560122171
+AR sevenseg behavioral "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/sevenSeg.vhd" sub00/vhpl03 1560022713
+EN top NULL "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/top.vhf" sub00/vhpl10 1560121856
+EN counterfor16to4mux NULL "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/counterFor16to4mux.vhd" sub00/vhpl00 1560121848
+AR mux4bit_4in1out behavioral "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/mux4bit_4in1out.vhd" sub00/vhpl05 1560121847
+EN mux4bit_4in1out NULL "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/mux4bit_4in1out.vhd" sub00/vhpl04 1560121846
+AR sevensegdisp behavioral "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/sevenSegDisp.vhd" sub00/vhpl12 1560122172
+AR counterfor16to4mux behavioral "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/counterFor16to4mux.vhd" sub00/vhpl01 1560121849
+AR top behavioral "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/top.vhf" sub00/vhpl13 1560121857
+EN sevenseg NULL "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/sevenSeg.vhd" sub00/vhpl02 1560022712

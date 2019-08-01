@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/DecodificadorDeTecladoITE323/teclado.xst" -ofn "/home/erid/Documents/Xilinx Projects/DecodificadorDeTecladoITE323/teclado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc decTeclado.ucf -p xc3s500e-pq208-5 "teclado.ngc" teclado.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o teclado_map.ncd teclado.ngd teclado.pcf 
+par -w -intstyle ise -ol high -t 1 teclado_map.ncd teclado.ncd teclado.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml teclado.twx teclado.ncd -o teclado.twr teclado.pcf -ucf decTeclado.ucf 
+bitgen -intstyle ise -f teclado.ut teclado.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/DecodificadorDeTecladoITE323/teclado.xst" -ofn "/home/erid/Documents/Xilinx Projects/DecodificadorDeTecladoITE323/teclado.syr" 

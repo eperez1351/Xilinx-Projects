@@ -1,0 +1,6 @@
+vhdtdtfi -lib work {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/flancoP.v} -lang verilog -prj sevenSegAndMatrixKeyb -o flancoP.spl -module flancoP -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e flancoP.spl {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/flancoP.sym} 
+vhdtdtfi -lib work {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/flancoP.v} -lang verilog -prj sevenSegAndMatrixKeyb -o flancoP.spl -module flancoP -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e flancoP.spl {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/flancoP.sym} 
+vhdtdtfi -lib work {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/flancoP.v} -lang verilog -prj sevenSegAndMatrixKeyb -o flancoP.spl -module flancoP -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w flancoP.spl {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/flancoP.sym} 

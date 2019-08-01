@@ -1,0 +1,32 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/toptest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/toptest.syr" 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/toptest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/toptest.syr" 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/toptest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/toptest.syr" 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/toptest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/toptest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "toptest.ngc" toptest.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "toptest.ngc" toptest.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "toptest.ngc" toptest.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o toptest_map.ncd toptest.ngd toptest.pcf 
+par -w -intstyle ise -ol high -t 1 toptest_map.ncd toptest.ncd toptest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml toptest.twx toptest.ncd -o toptest.twr toptest.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f toptest.ut toptest.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/toptest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/toptest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "toptest.ngc" toptest.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o toptest_map.ncd toptest.ngd toptest.pcf 
+par -w -intstyle ise -ol high -t 1 toptest_map.ncd toptest.ncd toptest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml toptest.twx toptest.ncd -o toptest.twr toptest.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f toptest.ut toptest.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "toptest.ngc" toptest.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o toptest_map.ncd toptest.ngd toptest.pcf 
+par -w -intstyle ise -ol high -t 1 toptest_map.ncd toptest.ncd toptest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml toptest.twx toptest.ncd -o toptest.twr toptest.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f toptest.ut toptest.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "toptest.ngc" toptest.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o toptest_map.ncd toptest.ngd toptest.pcf 
+par -w -intstyle ise -ol high -t 1 toptest_map.ncd toptest.ncd toptest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml toptest.twx toptest.ncd -o toptest.twr toptest.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f toptest.ut toptest.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "toptest.ngc" toptest.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o toptest_map.ncd toptest.ngd toptest.pcf 
+par -w -intstyle ise -ol high -t 1 toptest_map.ncd toptest.ncd toptest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml toptest.twx toptest.ncd -o toptest.twr toptest.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f toptest.ut toptest.ncd 

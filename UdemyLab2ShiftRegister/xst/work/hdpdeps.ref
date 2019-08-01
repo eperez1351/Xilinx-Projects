@@ -1,0 +1,37 @@
+V3 18
+FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.vhd" 2019/06/14.10:11:31 P.20131013
+EN work/anothershiftreg 1560521497 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/anothershiftreg/Behavioral 1560521498 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.vhd" \
+      EN work/anothershiftreg 1560521497
+FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/clk1hz.vhd" 2019/06/10.14:56:39 P.20131013
+EN work/clk1hz 1560366384 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/clk1hz.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk1hz/Behavioral 1560366385 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/clk1hz.vhd" \
+      EN work/clk1hz 1560366384
+FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/Shift_Reg.vhd" 2019/06/14.12:13:57 P.20131013
+EN work/Shift_Reg 1560528842 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/Shift_Reg.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Shift_Reg/behavior 1560528843 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/Shift_Reg.vhd" \
+      EN work/Shift_Reg 1560528842
+FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/test_Shift_Reg.vhd" 2016/02/06.11:44:16 P.20131013
+EN work/test_Shift_Reg 0 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/test_Shift_Reg.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/test_Shift_Reg/test 0 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/test_Shift_Reg.vhd" \
+      EN work/test_Shift_Reg 0 CP Shift_Reg
+FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/top.vhf" 2019/06/12.15:04:26 P.20131013
+EN work/top 1560528844 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/top.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/top/BEHAVIORAL 1560528845 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/top.vhf" \
+      EN work/top 1560528844 CP clk1hz CP Shift_Reg

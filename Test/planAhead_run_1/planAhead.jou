@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sat May 18 16:36:19 2019
+# Process ID: 2407
+# Log file: /home/erid/Documents/Xilinx Projects/Test/planAhead_run_1/planAhead.log
+# Journal file: /home/erid/Documents/Xilinx Projects/Test/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {/home/erid/Documents/Xilinx Projects/Test/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P76 [get_ports a]
+endgroup

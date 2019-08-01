@@ -1,0 +1,884 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/traductor4bit.vhd" in Library work.
+Architecture behavioral of Entity traductor4bit is up to date.
+Compiling vhdl file "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/clkDivider.vhd" in Library work.
+Architecture behavioral of Entity clkdivider is up to date.
+Compiling vhdl file "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/sevenSegDisp.vhd" in Library work.
+Architecture behavioral of Entity sevensegdisp is up to date.
+Compiling vhdl file "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/clk1hz.vhd" in Library work.
+Architecture behavioral of Entity clk1hz is up to date.
+Compiling vhdl file "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/MuxConContSel_16a4.vhd" in Library work.
+Architecture behavioral of Entity muxconcontsel_16a4 is up to date.
+Compiling vhdl file "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/reg16bitSIPO.vhd" in Library work.
+Architecture behavioral of Entity reg16bitsipo is up to date.
+Compiling vhdl file "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/BCDcounter.vhd" in Library work.
+Entity <bcdcounter> compiled.
+Entity <bcdcounter> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf" in Library work.
+Entity <keyboard_muser_top> compiled.
+Entity <keyboard_muser_top> (Architecture <behavioral>) compiled.
+Entity <top> compiled.
+Entity <top> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/keyboard.vhf" in Library work.
+Architecture behavioral of Entity keyboard is up to date.
+Compiling verilog file "key44.v" in library work
+Module <key44> compiled
+No errors in compilation
+Analysis of file <"top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clkDivider> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sevenSegDisp> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clk1hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MuxConContSel_16a4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <keyboard_MUSER_top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <reg16bitSIPO> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <BCDcounter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <key44> in library <work> with parameters.
+	S_0 = "000001"
+	S_1 = "000010"
+	S_2 = "000100"
+	S_3 = "001000"
+	S_4 = "010000"
+	S_5 = "100000"
+
+Analyzing hierarchy for entity <traductor4bit> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <top> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf" line 197: Unconnected output port 'd2' of component 'reg16bitSIPO'.
+WARNING:Xst:753 - "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf" line 197: Unconnected output port 'd3' of component 'reg16bitSIPO'.
+WARNING:Xst:753 - "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf" line 197: Unconnected output port 'd4' of component 'reg16bitSIPO'.
+WARNING:Xst:753 - "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf" line 207: Unconnected output port 'carry_out' of component 'BCDcounter'.
+Entity <top> analyzed. Unit <top> generated.
+
+Analyzing Entity <clkDivider> in library <work> (Architecture <behavioral>).
+Entity <clkDivider> analyzed. Unit <clkDivider> generated.
+
+Analyzing Entity <sevenSegDisp> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/sevenSegDisp.vhd" line 63: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/sevenSegDisp.vhd" line 77: Mux is complete : default of case is discarded
+Entity <sevenSegDisp> analyzed. Unit <sevenSegDisp> generated.
+
+Analyzing Entity <clk1hz> in library <work> (Architecture <behavioral>).
+Entity <clk1hz> analyzed. Unit <clk1hz> generated.
+
+Analyzing Entity <MuxConContSel_16a4> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/MuxConContSel_16a4.vhd" line 53: Mux is complete : default of case is discarded
+Entity <MuxConContSel_16a4> analyzed. Unit <MuxConContSel_16a4> generated.
+
+Analyzing Entity <keyboard_MUSER_top> in library <work> (Architecture <behavioral>).
+Entity <keyboard_MUSER_top> analyzed. Unit <keyboard_MUSER_top> generated.
+
+Analyzing module <key44> in library <work>.
+	S_0 = 6'b000001
+	S_1 = 6'b000010
+	S_2 = 6'b000100
+	S_3 = 6'b001000
+	S_4 = 6'b010000
+	S_5 = 6'b100000
+Module <key44> is correct for synthesis.
+ 
+Analyzing Entity <traductor4bit> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/traductor4bit.vhd" line 76: Mux is complete : default of case is discarded
+Entity <traductor4bit> analyzed. Unit <traductor4bit> generated.
+
+Analyzing Entity <reg16bitSIPO> in library <work> (Architecture <behavioral>).
+Entity <reg16bitSIPO> analyzed. Unit <reg16bitSIPO> generated.
+
+Analyzing Entity <BCDcounter> in library <work> (Architecture <behavioral>).
+Entity <BCDcounter> analyzed. Unit <BCDcounter> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clkDivider>.
+    Related source file is "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/clkDivider.vhd".
+    Found 32-bit up counter for signal <count>.
+    Found 1-bit register for signal <tmp>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <clkDivider> synthesized.
+
+
+Synthesizing Unit <sevenSegDisp>.
+    Related source file is "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/sevenSegDisp.vhd".
+    Found 16x8-bit ROM for signal <led>.
+    Found 1-of-4 decoder for signal <digitSelect>.
+    Found 2-bit up counter for signal <tmp>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   1 Decoder(s).
+Unit <sevenSegDisp> synthesized.
+
+
+Synthesizing Unit <clk1hz>.
+    Related source file is "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/clk1hz.vhd".
+    Found 32-bit up counter for signal <count>.
+    Found 1-bit register for signal <tmp>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <clk1hz> synthesized.
+
+
+Synthesizing Unit <MuxConContSel_16a4>.
+    Related source file is "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/MuxConContSel_16a4.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <q>.
+    Found 2-bit up counter for signal <tmp>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <MuxConContSel_16a4> synthesized.
+
+
+Synthesizing Unit <reg16bitSIPO>.
+    Related source file is "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/reg16bitSIPO.vhd".
+    Found 16-bit register for signal <reg>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <reg16bitSIPO> synthesized.
+
+
+Synthesizing Unit <BCDcounter>.
+    Related source file is "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/BCDcounter.vhd".
+    Found 1-bit register for signal <carry_out>.
+    Found 4-bit register for signal <tmp>.
+    Found 4-bit addsub for signal <tmp$share0000>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <BCDcounter> synthesized.
+
+
+Synthesizing Unit <key44>.
+    Related source file is "key44.v".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 10                                             |
+    | Clock              | clk4                      (rising_edge)        |
+    | Reset              | rst                       (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000001                                         |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <clk2>.
+    Found 1-bit register for signal <clk4>.
+    Found 4-bit register for signal <col_reg>.
+    Found 4-bit register for signal <count>.
+    Found 4-bit adder for signal <count$addsub0000> created at line 84.
+    Found 4-bit comparator greatequal for signal <count$cmp_ge0000> created at line 84.
+    Found 5-bit up counter for signal <Mega_cnt>.
+    Found 4-bit register for signal <row_reg>.
+    Found 1-bit register for signal <S_row>.
+    Found 4-bit comparator less for signal <S_row$cmp_lt0000> created at line 84.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  15 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <key44> synthesized.
+
+
+Synthesizing Unit <traductor4bit>.
+    Related source file is "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/traductor4bit.vhd".
+    Found 16x4-bit ROM for signal <toRegister>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <traductor4bit> synthesized.
+
+
+Synthesizing Unit <keyboard_MUSER_top>.
+    Related source file is "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf".
+Unit <keyboard_MUSER_top> synthesized.
+
+
+Synthesizing Unit <top>.
+    Related source file is "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf".
+WARNING:Xst:653 - Signal <XLXI_45_loadenb_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_45_load_in_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+WARNING:Xst:653 - Signal <XLXI_1_reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_14_d_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+WARNING:Xst:653 - Signal <XLXI_14_c_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+Unit <top> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x4-bit ROM                                          : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit addsub                                          : 1
+# Counters                                             : 5
+ 2-bit up counter                                      : 2
+ 32-bit up counter                                     : 2
+ 5-bit up counter                                      : 1
+# Registers                                            : 11
+ 1-bit register                                        : 6
+ 16-bit register                                       : 1
+ 4-bit register                                        : 4
+# Comparators                                          : 2
+ 4-bit comparator greatequal                           : 1
+ 4-bit comparator less                                 : 1
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_43/XLXI_1/state/FSM> on signal <state[1:6]> with user encoding.
+--------------------
+ State  | Encoding
+--------------------
+ 000001 | 000001
+ 000010 | 000010
+ 100000 | 100000
+ 000100 | 000100
+ 001000 | 001000
+ 010000 | 010000
+--------------------
+WARNING:Xst:2677 - Node <reg_4> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_5> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_6> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_7> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_8> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_9> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_10> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_11> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_12> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_13> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_14> of sequential type is unconnected in block <XLXI_44>.
+WARNING:Xst:2677 - Node <reg_15> of sequential type is unconnected in block <XLXI_44>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 2
+ 16x4-bit ROM                                          : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit addsub                                          : 1
+# Counters                                             : 5
+ 2-bit up counter                                      : 2
+ 32-bit up counter                                     : 2
+ 5-bit up counter                                      : 1
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+# Comparators                                          : 2
+ 4-bit comparator greatequal                           : 1
+ 4-bit comparator less                                 : 1
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <carry_out> (without init value) has a constant value of 0 in block <BCDcounter>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2146 - In block <top>, Counter <XLXI_2/tmp> <XLXI_14/tmp> are equivalent, XST will keep only <XLXI_2/tmp>.
+
+Optimizing unit <top> ...
+
+Optimizing unit <reg16bitSIPO> ...
+
+Optimizing unit <key44> ...
+
+Optimizing unit <BCDcounter> ...
+WARNING:Xst:2677 - Node <XLXI_44/reg_15> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_14> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_13> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_12> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_11> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_10> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_9> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_8> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_7> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_6> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_5> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_44/reg_4> of sequential type is unconnected in block <top>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 102
+ Flip-Flops                                            : 102
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top.ngr
+Top Level Output File Name         : top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 22
+
+Cell Usage :
+# BELS                             : 366
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 62
+#      LUT2                        : 80
+#      LUT3                        : 10
+#      LUT4                        : 52
+#      MUXCY                       : 78
+#      MUXF5                       : 11
+#      VCC                         : 1
+#      XORCY                       : 64
+# FlipFlops/Latches                : 102
+#      FD                          : 1
+#      FDC                         : 72
+#      FDCE                        : 11
+#      FDCPE                       : 4
+#      FDE_1                       : 8
+#      FDP                         : 3
+#      FDR                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 21
+#      IBUF                        : 5
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      114  out of   4656     2%  
+ Number of Slice Flip Flops:            102  out of   9312     1%  
+ Number of 4 input LUTs:                211  out of   9312     2%  
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    158    13%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)              | Load  |
+-----------------------------------+------------------------------------+-------+
+clk                                | BUFGP                              | 71    |
+XLXI_1/tmp                         | NONE(XLXI_2/tmp_1)                 | 6     |
+XLXI_43/XLXI_1/clk4                | NONE(XLXI_43/XLXI_1/state_FSM_FFd5)| 11    |
+XLXI_43/XLXI_1/Mega_cnt_4          | NONE(XLXI_43/XLXI_1/col_reg_3)     | 9     |
+XLXI_43/XLXI_1/clk2                | NONE(XLXI_43/XLXI_1/clk4)          | 1     |
+XLXI_4/tmp                         | NONE(XLXI_45/tmp_3)                | 4     |
+-----------------------------------+------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------------+------------------------+-------+
+Control Signal                            | Buffer(FF name)        | Load  |
+------------------------------------------+------------------------+-------+
+XLXI_4/reset_inv(XLXI_44/rst_inv1_INV_0:O)| NONE(XLXI_4/count_0)   | 53    |
+XLXN_213(XLXI_48:G)                       | NONE(XLXI_1/count_0)   | 37    |
+Display_7_OBUF(XST_VCC:P)                 | NONE(XLXI_45/tmp_0)    | 4     |
+------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.560ns (Maximum Frequency: 179.841MHz)
+   Minimum input arrival time before clock: 5.026ns
+   Maximum output required time after clock: 6.919ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.560ns (frequency: 179.841MHz)
+  Total number of paths / destination ports: 3189 / 73
+-------------------------------------------------------------------------
+Delay:               5.560ns (Levels of Logic = 33)
+  Source:            XLXI_1/count_1 (FF)
+  Destination:       XLXI_1/count_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: XLXI_1/count_1 to XLXI_1/count_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.532  XLXI_1/count_1 (XLXI_1/count_1)
+     LUT1:I0->O            1   0.612   0.000  XLXI_1/Mcount_count_cy<1>_rt (XLXI_1/Mcount_count_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  XLXI_1/Mcount_count_cy<1> (XLXI_1/Mcount_count_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<2> (XLXI_1/Mcount_count_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<3> (XLXI_1/Mcount_count_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<4> (XLXI_1/Mcount_count_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<5> (XLXI_1/Mcount_count_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<6> (XLXI_1/Mcount_count_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<7> (XLXI_1/Mcount_count_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<8> (XLXI_1/Mcount_count_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<9> (XLXI_1/Mcount_count_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<10> (XLXI_1/Mcount_count_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<11> (XLXI_1/Mcount_count_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<12> (XLXI_1/Mcount_count_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<13> (XLXI_1/Mcount_count_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<14> (XLXI_1/Mcount_count_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<15> (XLXI_1/Mcount_count_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<16> (XLXI_1/Mcount_count_cy<16>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<17> (XLXI_1/Mcount_count_cy<17>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<18> (XLXI_1/Mcount_count_cy<18>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<19> (XLXI_1/Mcount_count_cy<19>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<20> (XLXI_1/Mcount_count_cy<20>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<21> (XLXI_1/Mcount_count_cy<21>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<22> (XLXI_1/Mcount_count_cy<22>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<23> (XLXI_1/Mcount_count_cy<23>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<24> (XLXI_1/Mcount_count_cy<24>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<25> (XLXI_1/Mcount_count_cy<25>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<26> (XLXI_1/Mcount_count_cy<26>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<27> (XLXI_1/Mcount_count_cy<27>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<28> (XLXI_1/Mcount_count_cy<28>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_1/Mcount_count_cy<29> (XLXI_1/Mcount_count_cy<29>)
+     MUXCY:CI->O           0   0.052   0.000  XLXI_1/Mcount_count_cy<30> (XLXI_1/Mcount_count_cy<30>)
+     XORCY:CI->O           1   0.699   0.426  XLXI_1/Mcount_count_xor<31> (Result<31>)
+     LUT2:I1->O            1   0.612   0.000  XLXI_1/Mcount_count_eqn_311 (XLXI_1/Mcount_count_eqn_31)
+     FDC:D                     0.268          XLXI_1/count_31
+    ----------------------------------------
+    Total                      5.560ns (4.603ns logic, 0.958ns route)
+                                       (82.8% logic, 17.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_1/tmp'
+  Clock period: 2.243ns (frequency: 445.831MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.243ns (Levels of Logic = 1)
+  Source:            XLXI_2/tmp_1 (FF)
+  Destination:       XLXI_2/tmp_1 (FF)
+  Source Clock:      XLXI_1/tmp rising
+  Destination Clock: XLXI_1/tmp rising
+
+  Data Path: XLXI_2/tmp_1 to XLXI_2/tmp_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.514   0.849  XLXI_2/tmp_1 (XLXI_2/tmp_1)
+     LUT2:I0->O            1   0.612   0.000  XLXI_2/Mcount_tmp_xor<1>11 (Result<1>1)
+     FD:D                      0.268          XLXI_2/tmp_1
+    ----------------------------------------
+    Total                      2.243ns (1.394ns logic, 0.849ns route)
+                                       (62.1% logic, 37.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_43/XLXI_1/clk4'
+  Clock period: 3.107ns (frequency: 321.895MHz)
+  Total number of paths / destination ports: 43 / 15
+-------------------------------------------------------------------------
+Delay:               3.107ns (Levels of Logic = 2)
+  Source:            XLXI_43/XLXI_1/state_FSM_FFd6 (FF)
+  Destination:       XLXI_43/XLXI_1/count_3 (FF)
+  Source Clock:      XLXI_43/XLXI_1/clk4 rising
+  Destination Clock: XLXI_43/XLXI_1/clk4 rising
+
+  Data Path: XLXI_43/XLXI_1/state_FSM_FFd6 to XLXI_43/XLXI_1/count_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              6   0.514   0.721  XLXI_43/XLXI_1/state_FSM_FFd6 (XLXI_43/XLXI_1/state_FSM_FFd6)
+     LUT2:I0->O            1   0.612   0.000  XLXI_43/XLXI_1/count_not00012 (XLXI_43/XLXI_1/count_not00012)
+     MUXF5:I0->O           4   0.278   0.499  XLXI_43/XLXI_1/count_not0001_f5 (XLXI_43/XLXI_1/count_not0001)
+     FDCE:CE                   0.483          XLXI_43/XLXI_1/count_0
+    ----------------------------------------
+    Total                      3.107ns (1.887ns logic, 1.220ns route)
+                                       (60.7% logic, 39.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_43/XLXI_1/clk2'
+  Clock period: 2.126ns (frequency: 470.400MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.126ns (Levels of Logic = 0)
+  Source:            XLXI_43/XLXI_1/clk4 (FF)
+  Destination:       XLXI_43/XLXI_1/clk4 (FF)
+  Source Clock:      XLXI_43/XLXI_1/clk2 rising
+  Destination Clock: XLXI_43/XLXI_1/clk2 rising
+
+  Data Path: XLXI_43/XLXI_1/clk4 to XLXI_43/XLXI_1/clk4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.514   0.817  XLXI_43/XLXI_1/clk4 (XLXI_43/XLXI_1/clk4)
+     FDR:R                     0.795          XLXI_43/XLXI_1/clk4
+    ----------------------------------------
+    Total                      2.126ns (1.309ns logic, 0.817ns route)
+                                       (61.6% logic, 38.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_43/XLXI_1/Mega_cnt_4'
+  Clock period: 1.689ns (frequency: 592.084MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.689ns (Levels of Logic = 0)
+  Source:            XLXI_43/XLXI_1/clk2 (FF)
+  Destination:       XLXI_43/XLXI_1/clk2 (FF)
+  Source Clock:      XLXI_43/XLXI_1/Mega_cnt_4 rising
+  Destination Clock: XLXI_43/XLXI_1/Mega_cnt_4 rising
+
+  Data Path: XLXI_43/XLXI_1/clk2 to XLXI_43/XLXI_1/clk2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.380  XLXI_43/XLXI_1/clk2 (XLXI_43/XLXI_1/clk2)
+     FDR:R                     0.795          XLXI_43/XLXI_1/clk2
+    ----------------------------------------
+    Total                      1.689ns (1.309ns logic, 0.380ns route)
+                                       (77.5% logic, 22.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_4/tmp'
+  Clock period: 2.289ns (frequency: 436.862MHz)
+  Total number of paths / destination ports: 13 / 4
+-------------------------------------------------------------------------
+Delay:               2.289ns (Levels of Logic = 1)
+  Source:            XLXI_45/tmp_0 (FF)
+  Destination:       XLXI_45/tmp_0 (FF)
+  Source Clock:      XLXI_4/tmp rising
+  Destination Clock: XLXI_4/tmp rising
+
+  Data Path: XLXI_45/tmp_0 to XLXI_45/tmp_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            5   0.514   0.538  XLXI_45/tmp_0 (XLXI_45/tmp_0)
+     INV:I->O              1   0.612   0.357  XLXI_45/tmp_mux0003<0>11_INV_0 (XLXI_45/tmp_mux0003<0>)
+     FDCPE:D                   0.268          XLXI_45/tmp_0
+    ----------------------------------------
+    Total                      2.289ns (1.394ns logic, 0.895ns route)
+                                       (60.9% logic, 39.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_1/tmp'
+  Total number of paths / destination ports: 16 / 4
+-------------------------------------------------------------------------
+Offset:              5.026ns (Levels of Logic = 3)
+  Source:            row<2> (PAD)
+  Destination:       XLXI_44/reg_3 (FF)
+  Destination Clock: XLXI_1/tmp rising
+
+  Data Path: row<2> to XLXI_44/reg_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  row_2_IBUF (row_2_IBUF)
+     LUT4:I0->O           13   0.612   0.836  XLXI_43/XLXI_1/S_row_mux00001 (XLXI_43/XLXI_1/S_row_mux0000)
+     MUXF5:S->O           12   0.641   0.817  XLXI_43/XLXI_1/valid_f5 (XLXN_163)
+     FDCE:CE                   0.483          XLXI_44/reg_0
+    ----------------------------------------
+    Total                      5.026ns (2.842ns logic, 2.184ns route)
+                                       (56.5% logic, 43.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_43/XLXI_1/clk4'
+  Total number of paths / destination ports: 60 / 15
+-------------------------------------------------------------------------
+Offset:              4.708ns (Levels of Logic = 3)
+  Source:            row<2> (PAD)
+  Destination:       XLXI_43/XLXI_1/count_3 (FF)
+  Destination Clock: XLXI_43/XLXI_1/clk4 rising
+
+  Data Path: row<2> to XLXI_43/XLXI_1/count_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  row_2_IBUF (row_2_IBUF)
+     LUT4:I0->O           13   0.612   0.836  XLXI_43/XLXI_1/S_row_mux00001 (XLXI_43/XLXI_1/S_row_mux0000)
+     MUXF5:S->O            4   0.641   0.499  XLXI_43/XLXI_1/count_not0001_f5 (XLXI_43/XLXI_1/count_not0001)
+     FDCE:CE                   0.483          XLXI_43/XLXI_1/count_0
+    ----------------------------------------
+    Total                      4.708ns (2.842ns logic, 1.866ns route)
+                                       (60.4% logic, 39.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_43/XLXI_1/Mega_cnt_4'
+  Total number of paths / destination ports: 36 / 12
+-------------------------------------------------------------------------
+Offset:              5.026ns (Levels of Logic = 3)
+  Source:            row<2> (PAD)
+  Destination:       XLXI_43/XLXI_1/col_reg_3 (FF)
+  Destination Clock: XLXI_43/XLXI_1/Mega_cnt_4 falling
+
+  Data Path: row<2> to XLXI_43/XLXI_1/col_reg_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  row_2_IBUF (row_2_IBUF)
+     LUT4:I0->O           13   0.612   0.836  XLXI_43/XLXI_1/S_row_mux00001 (XLXI_43/XLXI_1/S_row_mux0000)
+     MUXF5:S->O           12   0.641   0.817  XLXI_43/XLXI_1/valid_f5 (XLXN_163)
+     FDE_1:CE                  0.483          XLXI_43/XLXI_1/row_reg_0
+    ----------------------------------------
+    Total                      5.026ns (2.842ns logic, 2.184ns route)
+                                       (56.5% logic, 43.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_43/XLXI_1/clk4'
+  Total number of paths / destination ports: 12 / 4
+-------------------------------------------------------------------------
+Offset:              5.365ns (Levels of Logic = 2)
+  Source:            XLXI_43/XLXI_1/state_FSM_FFd5 (FF)
+  Destination:       col<3> (PAD)
+  Source Clock:      XLXI_43/XLXI_1/clk4 rising
+
+  Data Path: XLXI_43/XLXI_1/state_FSM_FFd5 to col<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.514   0.690  XLXI_43/XLXI_1/state_FSM_FFd5 (XLXI_43/XLXI_1/state_FSM_FFd5)
+     LUT3:I0->O            2   0.612   0.380  XLXI_43/XLXI_1/state_FSM_Out81 (col_1_OBUF)
+     OBUF:I->O                 3.169          col_1_OBUF (col<1>)
+    ----------------------------------------
+    Total                      5.365ns (4.295ns logic, 1.070ns route)
+                                       (80.1% logic, 19.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_1/tmp'
+  Total number of paths / destination ports: 92 / 11
+-------------------------------------------------------------------------
+Offset:              6.919ns (Levels of Logic = 3)
+  Source:            XLXI_2/tmp_0 (FF)
+  Destination:       Display<6> (PAD)
+  Source Clock:      XLXI_1/tmp rising
+
+  Data Path: XLXI_2/tmp_0 to Display<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             10   0.514   0.902  XLXI_2/tmp_0 (XLXI_2/tmp_0)
+     LUT4:I0->O            7   0.612   0.754  XLXI_14/Mmux_q81 (XLXN_87<3>)
+     LUT4:I0->O            1   0.612   0.357  XLXI_2/Mrom_led41 (Display_4_OBUF)
+     OBUF:I->O                 3.169          Display_4_OBUF (Display<4>)
+    ----------------------------------------
+    Total                      6.919ns (4.907ns logic, 2.013ns route)
+                                       (70.9% logic, 29.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_4/tmp'
+  Total number of paths / destination ports: 28 / 7
+-------------------------------------------------------------------------
+Offset:              6.586ns (Levels of Logic = 3)
+  Source:            XLXI_45/tmp_1 (FF)
+  Destination:       Display<6> (PAD)
+  Source Clock:      XLXI_4/tmp rising
+
+  Data Path: XLXI_45/tmp_1 to Display<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            4   0.514   0.568  XLXI_45/tmp_1 (XLXI_45/tmp_1)
+     LUT4:I1->O            7   0.612   0.754  XLXI_14/Mmux_q41 (XLXN_87<1>)
+     LUT4:I0->O            1   0.612   0.357  XLXI_2/Mrom_led21 (Display_2_OBUF)
+     OBUF:I->O                 3.169          Display_2_OBUF (Display<2>)
+    ----------------------------------------
+    Total                      6.586ns (4.907ns logic, 1.679ns route)
+                                       (74.5% logic, 25.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.17 secs
+ 
+--> 
+
+
+Total memory usage is 539996 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   34 (   0 filtered)
+Number of infos    :    7 (   0 filtered)
+

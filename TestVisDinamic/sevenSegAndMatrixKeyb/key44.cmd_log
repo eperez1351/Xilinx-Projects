@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/key44.v} -lang verilog -prj sevenSegAndMatrixKeyb -o key44.spl -module key44 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e key44.spl {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/key44.sym} 

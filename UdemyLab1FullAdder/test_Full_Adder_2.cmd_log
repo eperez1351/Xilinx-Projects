@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/test_Full_Adder_2.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/test_Full_Adder_2.syr" 

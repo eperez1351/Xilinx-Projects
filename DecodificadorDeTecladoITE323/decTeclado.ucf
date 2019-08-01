@@ -1,0 +1,93 @@
+# Pin assignment for LEDs
+
+
+ #NET "x<3>" LOC = "b7" ; 
+ #NET "x<2>" LOC = "c5" ; 
+ #NET "x<1>" LOC = "b6" ; 
+#NET "x<0>" LOC = "c6" ; 
+
+# Pin assignment for slide switches
+# NET "sw<7>" LOC = "n3"; 
+# NET "sw<6>" LOC = "e2"; 
+# NET "sw<5>" LOC = "f3"; 
+#NET "sw<4>" LOC = "g3";
+//NET "sw<3>" LOC = "b4"; 
+//NET "sw<2>" LOC = "k3"; 
+//NET "sw<1>" LOC = "l3"; 
+//NET "sw<0>" LOC = "p11";
+#NET "y<3>" LOC = "b5"; 
+#NET "y<2>" LOC = "j3"; 
+#NET "y<1>" LOC = "a3"; 
+#NET "y<0>" LOC = "b2"; 
+
+# Pin assignment for pushbutton switches
+//NET "btn<3>" LOC = "a7"; 
+#NET "btn<2>" LOC = "m4"; 
+#NET "btn<1>" LOC = "c11"; 
+#NET "btn<0>" LOC = "g12"; 
+#NET "btn<0>" CLOCK_DEDICATED_ROUTE = FALSE; 
+# Pin assignment for 7-segment displays
+#NET "a_to_g<6>"  LOC = "l14"  ;
+#NET "a_to_g<5>"  LOC = "h12"  ;
+#NET "a_to_g<4>"  LOC = "n14"  ;
+#NET "a_to_g<3>"  LOC = "n11"  ;
+#NET "a_to_g<2>"  LOC = "p12"  ;
+#NET "a_to_g<1>"  LOC = "l13"  ;
+#NET "a_to_g<0>"  LOC = "m12"  ;
+#NET "dp"  LOC = "n13"  ;
+
+#NET "an<3>" LOC = "k14"; 
+#NET "an<2>" LOC = "m13"; 
+#NET "an<1>" LOC = "j12"; 
+#NET "an<0>" LOC = "f12"; 
+
+
+# Pin assignment for clock
+#NET "clk" LOC = "b8"; 
+//NET "clk" CLOCK_DEDICATED_ROUTE = FALSE; 
+//PIN "divisor1/DCM_SP_INST.clk" CLOCK_DEDICATED_ROUTE = FALSE; 
+NET "clk"  LOC = "P184"  ;
+
+#NET "led[0]"  LOC = "P68"  ;
+#NET "led[1]"  LOC = "P78"  ;
+#NET "led[2]"  LOC = "P83"  ;
+#NET "led[3]"  LOC = "P89"  ;
+
+#NET "reset"  LOC = "P101"  ;
+
+NET "x[0]"  LOC = "p75"  ;
+NET "x[1]"  LOC = "p76"  ;
+NET "x[2]"  LOC = "p69"  ;
+NET "x[3]"  LOC = "p74"  ;
+NET "y[0]"  LOC = "p64"  ;
+NET "y[1]"  LOC = "p65"  ;
+NET "y[2]"  LOC = "p62"  ;
+NET "y[3]"  LOC = "p63"  ;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk" IOSTANDARD = LVCMOS33;
+
+#NET "x[0]"   PULLUP;
+#NET "x[1]"   PULLUP;
+#NET "x[2]"   PULLUP;
+#NET "x[3]"   PULLUP;
+NET "y[0]"   PULLUP;
+NET "y[1]"   PULLUP;
+NET "y[2]"   PULLUP;
+NET "y[3]"   PULLUP;
+
+NET "an[0]"  LOC ="P116"  ;
+NET "an[1]"  LOC = "P113"  ;
+NET "an[2]"  LOC = "P109"   ;
+NET "an[3]"  LOC = "P107" ;
+
+NET "a_to_g[0]"  LOC = "p98"   ;
+NET "a_to_g[1]"  LOC = "p100"  ;
+NET "a_to_g[2]"  LOC ="p106"    ;
+NET "a_to_g[3]"  LOC ="p108"  ;
+NET "a_to_g[4]"  LOC = "p112"  ;
+NET "a_to_g[5]"  LOC = "p115"   ;
+NET "a_to_g[6]"  LOC = "p119"  ;
+
+

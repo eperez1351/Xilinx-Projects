@@ -1,0 +1,7 @@
+vhdl work "sevenSegDisp.vhd"
+vhdl work "MuxConContSel_16a4.vhd"
+vhdl work "clkDivider.vhd"
+vhdl work "VisDyn.vhf"
+vhdl work "clk1hz.vhd"
+vhdl work "BCDcounter.vhd"
+vhdl work "top.vhf"

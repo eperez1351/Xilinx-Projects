@@ -1,0 +1,6 @@
+AR clk1hz behavioral "/home/erid/Documents/Xilinx Projects/flipfloptest/clk1hz.vhd" sub00/vhpl03 1560520799
+EN top NULL "/home/erid/Documents/Xilinx Projects/flipfloptest/top.vhf" sub00/vhpl04 1560520802
+EN clk1hz NULL "/home/erid/Documents/Xilinx Projects/flipfloptest/clk1hz.vhd" sub00/vhpl02 1560520798
+EN flipflop NULL "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.vhd" sub00/vhpl00 1560522737
+AR flipflop behavioral "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.vhd" sub00/vhpl01 1560522738
+AR top behavioral "/home/erid/Documents/Xilinx Projects/flipfloptest/top.vhf" sub00/vhpl05 1560520803

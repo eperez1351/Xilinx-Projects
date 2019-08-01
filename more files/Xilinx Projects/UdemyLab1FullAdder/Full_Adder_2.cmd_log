@@ -1,0 +1,34 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Full_Adder_2.ucf -p xc3s100e-vq100-5 "Full_Adder_2.ngc" Full_Adder_2.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Full_Adder_2_map.ncd Full_Adder_2.ngd Full_Adder_2.pcf 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Full_Adder_2.ucf -p xc3s100e-vq100-5 "Full_Adder_2.ngc" Full_Adder_2.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Full_Adder_2_map.ncd Full_Adder_2.ngd Full_Adder_2.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Full_Adder_2.ucf -p xc3s100e-vq100-5 "Full_Adder_2.ngc" Full_Adder_2.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Full_Adder_2_map.ncd Full_Adder_2.ngd Full_Adder_2.pcf 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s100e-vq100-5 "Full_Adder_2.ngc" Full_Adder_2.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Full_Adder_2_map.ncd Full_Adder_2.ngd Full_Adder_2.pcf 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Full_Adder_2.ucf -p xc3s100e-cp132-5 "Full_Adder_2.ngc" Full_Adder_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Full_Adder_2_map.ncd Full_Adder_2.ngd Full_Adder_2.pcf 
+par -w -intstyle ise -ol high -t 1 Full_Adder_2_map.ncd Full_Adder_2.ncd Full_Adder_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Full_Adder_2.twx Full_Adder_2.ncd -o Full_Adder_2.twr Full_Adder_2.pcf -ucf Full_Adder_2.ucf 
+bitgen -intstyle ise -f Full_Adder_2.ut Full_Adder_2.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "Full_Adder_2.ngc" Full_Adder_2.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o Full_Adder_2_map.ncd Full_Adder_2.ngd Full_Adder_2.pcf 
+par -w -intstyle ise -ol high -t 1 Full_Adder_2_map.ncd Full_Adder_2.ncd Full_Adder_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Full_Adder_2.twx Full_Adder_2.ncd -o Full_Adder_2.twr Full_Adder_2.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f Full_Adder_2.ut Full_Adder_2.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "Full_Adder_2.ngc" Full_Adder_2.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o Full_Adder_2_map.ncd Full_Adder_2.ngd Full_Adder_2.pcf 
+par -w -intstyle ise -ol high -t 1 Full_Adder_2_map.ncd Full_Adder_2.ncd Full_Adder_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Full_Adder_2.twx Full_Adder_2.ncd -o Full_Adder_2.twr Full_Adder_2.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f Full_Adder_2.ut Full_Adder_2.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "Full_Adder_2.ngc" Full_Adder_2.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o Full_Adder_2_map.ncd Full_Adder_2.ngd Full_Adder_2.pcf 
+par -w -intstyle ise -ol high -t 1 Full_Adder_2_map.ncd Full_Adder_2.ncd Full_Adder_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Full_Adder_2.twx Full_Adder_2.ncd -o Full_Adder_2.twr Full_Adder_2.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f Full_Adder_2.ut Full_Adder_2.ncd 

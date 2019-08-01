@@ -1,0 +1,4 @@
+vhdtdtfi -lib work LED8.vhd -prj VisualDynamic8seg -o LED8.spl -module LED8 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w LED8.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/LED8.sym} 
+vhdtdtfi -lib work LED8.vhd -prj VisualDynamic8seg -o LED8.spl -module LED8 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w LED8.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/LED8.sym} 

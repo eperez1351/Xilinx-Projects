@@ -1,0 +1,2 @@
+vhdtdtfi -lib work clk1hz.vhd -prj UdemyLab2ShiftRegister -o clk1hz.spl -module clk1hz -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e clk1hz.spl {/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/clk1hz.sym} 

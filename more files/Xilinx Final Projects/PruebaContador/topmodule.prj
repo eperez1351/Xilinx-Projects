@@ -1,0 +1,6 @@
+vhdl work "traductor4bit.vhd"
+verilog work "key44.v"
+vhdl work "keyboard.vhf"
+vhdl work "counter74190.vhd"
+vhdl work "clk1hz.vhd"
+vhdl work "topmodule.vhf"

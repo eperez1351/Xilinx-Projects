@@ -1,0 +1,13 @@
+
+#NET "CLK"  LOC = "p184"  ;
+
+NET "q[0]"  LOC = "p68"  ;
+NET "q[1]"  LOC = "p78"  ;
+NET "q[2]"  LOC = "p83"  ;
+NET "q[3]"  LOC = "p89"  ;
+
+NET "clk"  LOC = "p75"  ;
+NET "s"  LOC = "p76"  ;
+
+NET "clk"   PULLUP;
+NET "s"   PULLUP;

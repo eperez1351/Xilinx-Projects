@@ -1,0 +1,4 @@
+vhdtdtfi -lib work upcounter16bit.vhd -prj sevenSegTest -o upcounter16bit.spl -module upcounter16bit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e upcounter16bit.spl {/home/erid/Documents/Xilinx Projects/sevenSegTest/upcounter16bit.sym} 
+vhdtdtfi -lib work upcounter16bit.vhd -prj sevenSegTest -o upcounter16bit.spl -module upcounter16bit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w upcounter16bit.spl {/home/erid/Documents/Xilinx Projects/sevenSegTest/upcounter16bit.sym} 

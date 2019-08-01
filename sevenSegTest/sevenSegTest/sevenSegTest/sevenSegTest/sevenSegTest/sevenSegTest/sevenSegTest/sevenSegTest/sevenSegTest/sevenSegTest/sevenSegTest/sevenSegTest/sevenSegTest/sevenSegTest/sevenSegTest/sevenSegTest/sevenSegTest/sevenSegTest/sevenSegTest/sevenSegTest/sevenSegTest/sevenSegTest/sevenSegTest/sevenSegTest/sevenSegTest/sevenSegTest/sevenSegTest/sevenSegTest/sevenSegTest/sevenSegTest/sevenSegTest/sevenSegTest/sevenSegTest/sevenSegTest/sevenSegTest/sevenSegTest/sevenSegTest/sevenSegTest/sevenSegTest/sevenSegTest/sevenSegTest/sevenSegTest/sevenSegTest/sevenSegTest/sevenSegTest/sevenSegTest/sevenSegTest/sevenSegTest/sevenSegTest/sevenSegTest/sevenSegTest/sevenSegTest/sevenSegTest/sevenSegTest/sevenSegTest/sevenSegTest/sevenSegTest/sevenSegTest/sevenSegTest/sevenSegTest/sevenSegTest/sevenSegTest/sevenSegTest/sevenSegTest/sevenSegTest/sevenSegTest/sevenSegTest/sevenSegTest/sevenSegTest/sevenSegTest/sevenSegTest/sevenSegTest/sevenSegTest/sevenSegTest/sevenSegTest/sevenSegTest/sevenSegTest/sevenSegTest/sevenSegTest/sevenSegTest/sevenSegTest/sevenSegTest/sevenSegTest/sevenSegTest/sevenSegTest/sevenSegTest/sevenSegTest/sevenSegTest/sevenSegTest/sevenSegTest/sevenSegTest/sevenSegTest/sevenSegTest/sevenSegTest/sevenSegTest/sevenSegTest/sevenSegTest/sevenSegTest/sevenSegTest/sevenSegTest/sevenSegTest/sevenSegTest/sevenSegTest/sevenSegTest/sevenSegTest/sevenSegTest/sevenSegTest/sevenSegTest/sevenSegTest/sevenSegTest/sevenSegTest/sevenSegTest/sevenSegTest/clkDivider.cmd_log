@@ -1,0 +1,6 @@
+vhdtdtfi -lib work clkDivider.vhd -prj sevenSegTest -o clkDivider.spl -module clkDivider -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e clkDivider.spl {/home/erid/Documents/Xilinx Projects/sevenSegTest/clkDivider.sym} 
+vhdtdtfi -lib work clkDivider.vhd -prj sevenSegTest -o clkDivider.spl -module clkDivider -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e clkDivider.spl {/home/erid/Documents/Xilinx Projects/sevenSegTest/clkDivider.sym} 
+vhdtdtfi -lib work clkDivider.vhd -prj sevenSegTest -o clkDivider.spl -module clkDivider -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w clkDivider.spl {/home/erid/Documents/Xilinx Projects/sevenSegTest/clkDivider.sym} 

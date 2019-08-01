@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;3&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;0&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;1&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;2&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;0&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;0&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;1&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;1&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;2&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;2&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;3&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="23" delta="old" >Short on signal <arg fmt="%s" index="1">col&lt;3&gt;</arg> detected.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">row&lt;3&gt;</arg> connected to top level port <arg fmt="%s" index="2">row&lt;3&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">row&lt;2&gt;</arg> connected to top level port <arg fmt="%s" index="2">row&lt;2&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">row&lt;1&gt;</arg> connected to top level port <arg fmt="%s" index="2">row&lt;1&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">row&lt;0&gt;</arg> connected to top level port <arg fmt="%s" index="2">row&lt;0&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">clk_in</arg> connected to top level port <arg fmt="%s" index="2">clk_in</arg> has been removed.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+</messages>
+

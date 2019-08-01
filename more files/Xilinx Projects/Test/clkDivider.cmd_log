@@ -1,0 +1,32 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/clkDivider.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/clkDivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "clkDivider.ngc" clkDivider.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o clkDivider_map.ncd clkDivider.ngd clkDivider.pcf 
+par -w -intstyle ise -ol high -t 1 clkDivider_map.ncd clkDivider.ncd clkDivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml clkDivider.twx clkDivider.ncd -o clkDivider.twr clkDivider.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f clkDivider.ut clkDivider.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/clkDivider.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/clkDivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "clkDivider.ngc" clkDivider.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o clkDivider_map.ncd clkDivider.ngd clkDivider.pcf 
+par -w -intstyle ise -ol high -t 1 clkDivider_map.ncd clkDivider.ncd clkDivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml clkDivider.twx clkDivider.ncd -o clkDivider.twr clkDivider.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f clkDivider.ut clkDivider.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/clkDivider.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/clkDivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "clkDivider.ngc" clkDivider.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o clkDivider_map.ncd clkDivider.ngd clkDivider.pcf 
+par -w -intstyle ise -ol high -t 1 clkDivider_map.ncd clkDivider.ncd clkDivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml clkDivider.twx clkDivider.ncd -o clkDivider.twr clkDivider.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f clkDivider.ut clkDivider.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/clkDivider.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/clkDivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "clkDivider.ngc" clkDivider.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o clkDivider_map.ncd clkDivider.ngd clkDivider.pcf 
+par -w -intstyle ise -ol high -t 1 clkDivider_map.ncd clkDivider.ncd clkDivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml clkDivider.twx clkDivider.ncd -o clkDivider.twr clkDivider.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f clkDivider.ut clkDivider.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/clkDivider.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/clkDivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "clkDivider.ngc" clkDivider.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o clkDivider_map.ncd clkDivider.ngd clkDivider.pcf 
+par -w -intstyle ise -ol high -t 1 clkDivider_map.ncd clkDivider.ncd clkDivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml clkDivider.twx clkDivider.ncd -o clkDivider.twr clkDivider.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f clkDivider.ut clkDivider.ncd 
+vhdtdtfi -lib work clkDivider.vhd -prj Test -o clkDivider.spl -module clkDivider -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e clkDivider.spl {/home/erid/Documents/Xilinx Projects/Test/clkDivider.sym} 

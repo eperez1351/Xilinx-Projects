@@ -1,0 +1,5 @@
+set -tmpdir "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/xst/projnav.tmp"
+set -xsthdpdir "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/xst"
+elaborate
+-ifn MuxConContSel_16a4.prj
+-ifmt mixed

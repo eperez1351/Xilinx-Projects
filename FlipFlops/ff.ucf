@@ -1,0 +1,18 @@
+NET "clk" LOC = "P184" ;
+
+NET "reset" LOC = "P101" ;
+
+NET "qd" LOC =" P68" ;
+NET "qt" LOC = "P78" ;
+NET "qjk" LOC = "P83" ;
+#NET "led[3]" LOC = "P89";
+
+NET "d"  LOC = "p75"  ;
+NET "t"  LOC = "p76"  ;
+NET "j"  LOC = "p69"  ;
+NET "k"  LOC = "p74"  ;
+
+NET "d" pullup;
+NET "t" pullup;
+NET "j" pullup;
+NET "k" pullup;

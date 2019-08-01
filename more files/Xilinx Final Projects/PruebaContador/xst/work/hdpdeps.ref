@@ -1,0 +1,53 @@
+V3 29
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/CarryGenerator.vhd" 2019/07/15.09:31:09 P.20131013
+EN work/CarryGenerator 0 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/CarryGenerator.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/CarryGenerator/Behavioral 0 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/CarryGenerator.vhd" \
+      EN work/CarryGenerator 0
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/clk1hz.vhd" 2019/07/10.16:11:02 P.20131013
+EN work/clk1hz 1563304931 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/clk1hz.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk1hz/Behavioral 1563304932 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/clk1hz.vhd" \
+      EN work/clk1hz 1563304931
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/counter74190.vhd" 2019/07/15.10:10:52 P.20131013
+EN work/counter74190 1563304929 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/counter74190.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/counter74190/Behavioral 1563304930 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/counter74190.vhd" \
+      EN work/counter74190 1563304929
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/keyboard.vhf" 2019/07/16.15:21:59 P.20131013
+EN work/keyboard 1563304937 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/keyboard.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/keyboard/BEHAVIORAL 1563304938 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/keyboard.vhf" \
+      EN work/keyboard 1563304937 CP key44 CP traductor4bit
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.vhf" 2019/07/16.15:21:59 P.20131013
+EN work/keyboard_MUSER_topmodule 1563304933 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/keyboard_MUSER_topmodule/BEHAVIORAL 1563304934 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.vhf" \
+      EN work/keyboard_MUSER_topmodule 1563304933 CP key44 CP traductor4bit
+EN work/topmodule 1563304935 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/topmodule/BEHAVIORAL 1563304936 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.vhf" \
+      EN work/topmodule 1563304935 CP counter74190 CP clk1hz CP VCC CP INV \
+      CP keyboard_MUSER_topmodule
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/traductor4bit.vhd" 2019/07/09.14:29:35 P.20131013
+EN work/traductor4bit 1563304927 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/traductor4bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/traductor4bit/Behavioral 1563304928 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/traductor4bit.vhd" \
+      EN work/traductor4bit 1563304927

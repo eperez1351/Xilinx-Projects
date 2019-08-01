@@ -1,0 +1,12 @@
+AR clk1hz behavioral /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/clk1hz.vhd sub00/vhpl05 1561575712
+AR clkdivider behavioral /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/clkDivider.vhd sub00/vhpl01 1561575708
+AR bcdcounter behavioral /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/BCDcounter.vhd sub00/vhpl09 1561575716
+AR muxconcontsel_16a4 behavioral /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/MuxConContSel_16a4.vhd sub00/vhpl07 1561575714
+EN clkdivider NULL /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/clkDivider.vhd sub00/vhpl00 1561575707
+EN sevensegdisp NULL /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/sevenSegDisp.vhd sub00/vhpl02 1561575709
+EN bcdcounter NULL /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/BCDcounter.vhd sub00/vhpl08 1561575715
+EN top NULL /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/top.vhf sub00/vhpl10 1561575717
+EN muxconcontsel_16a4 NULL /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/MuxConContSel_16a4.vhd sub00/vhpl06 1561575713
+EN clk1hz NULL /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/clk1hz.vhd sub00/vhpl04 1561575711
+AR sevensegdisp behavioral /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/sevenSegDisp.vhd sub00/vhpl03 1561575710
+AR top behavioral /home/erid/Documents/GitHub/Xilinx-Projects/VisDynWcounter/top.vhf sub00/vhpl11 1561575718

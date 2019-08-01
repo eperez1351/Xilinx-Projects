@@ -1,0 +1,8 @@
+vhdtdtfi -lib work mux4bit_4in1out.vhd -prj VisualDynamic8seg -o mux4bit_4in1out.spl -module mux4bit_4in1out -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mux4bit_4in1out.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/mux4bit_4in1out.sym} 
+vhdtdtfi -lib work mux4bit_4in1out.vhd -prj VisualDynamic8seg -o mux4bit_4in1out.spl -module mux4bit_4in1out -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mux4bit_4in1out.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/mux4bit_4in1out.sym} 
+vhdtdtfi -lib work mux4bit_4in1out.vhd -prj VisualDynamic8seg -o mux4bit_4in1out.spl -module mux4bit_4in1out -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mux4bit_4in1out.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/mux4bit_4in1out.sym} 
+vhdtdtfi -lib work mux4bit_4in1out.vhd -prj VisualDynamic8seg -o mux4bit_4in1out.spl -module mux4bit_4in1out -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mux4bit_4in1out.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/mux4bit_4in1out.sym} 

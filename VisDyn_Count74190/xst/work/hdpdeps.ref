@@ -1,0 +1,45 @@
+V3 26
+FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/BCDcounter.vhd 2019/07/05.11:36:00 P.20131013
+EN work/BCDcounter 1562340972 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/BCDcounter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/BCDcounter/Behavioral 1562340973 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/BCDcounter.vhd \
+      EN work/BCDcounter 1562340972
+FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/clk1hz.vhd 2019/06/10.14:56:39 P.20131013
+EN work/clk1hz 1562340968 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/clk1hz.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk1hz/Behavioral 1562340969 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/clk1hz.vhd \
+      EN work/clk1hz 1562340968
+FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/clkDivider.vhd 2019/06/29.23:51:41 P.20131013
+EN work/clkDivider 1562340964 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/clkDivider.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clkDivider/Behavioral 1562340965 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/clkDivider.vhd \
+      EN work/clkDivider 1562340964
+FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/MuxConContSel_16a4.vhd 2019/06/17.15:05:10 P.20131013
+EN work/MuxConContSel_16a4 1562340970 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/MuxConContSel_16a4.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/MuxConContSel_16a4/Behavioral 1562340971 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/MuxConContSel_16a4.vhd \
+      EN work/MuxConContSel_16a4 1562340970
+FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/sevenSegDisp.vhd 2019/06/10.14:50:11 P.20131013
+EN work/sevenSegDisp 1562340966 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/sevenSegDisp.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/sevenSegDisp/Behavioral 1562340967 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/sevenSegDisp.vhd \
+      EN work/sevenSegDisp 1562340966
+FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/top.vhf 2019/07/05.11:13:11 P.20131013
+EN work/top 1562340974 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/top/BEHAVIORAL 1562340975 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/top.vhf \
+      EN work/top 1562340974 CP clkDivider CP sevenSegDisp CP clk1hz \
+      CP MuxConContSel_16a4 CP BCDcounter CP GND CP VCC

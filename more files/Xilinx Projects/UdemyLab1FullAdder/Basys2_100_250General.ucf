@@ -1,0 +1,23 @@
+# This file is a general .ucf for Basys2 rev C board
+# To use it in a project:
+# - remove or comment the lines corresponding to unused pins
+# - rename the used signals according to the project
+
+# clock pin for Basys2 Board
+
+
+# Pin assignment for EppCtl
+# Connected to Basys2 onBoard USB controller
+
+
+# Pin assignment for DispCtl
+# Connected to Basys2 onBoard 7seg display
+
+# Pin assignment for LEDs
+NET "S" LOC = "G1" ; # Bank = 3, Signal name = LD7
+NET "C_out" LOC = "P4" ; # Bank = 2, Signal name = LD6
+
+# Pin assignment for SWs
+NET "x" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "y" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "C_in" LOC = "F3";  # Bank = 3, Signal name = SW5

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work register4bit_sipo.vhd -prj VisualDynamic8seg -o register4bit_sipo.spl -module register4bit_sipo -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e register4bit_sipo.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/register4bit_sipo.sym} 

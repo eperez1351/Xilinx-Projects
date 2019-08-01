@@ -1,0 +1,9 @@
+AR clkdivider behavioral "/home/erid/Documents/Xilinx Projects/TestVisDinamic/clkDivider.vhd" sub00/vhpl03 1560564016
+MO key44 NULL key44.v vlg15/key44.bin 1560564015
+EN clkdivider NULL "/home/erid/Documents/Xilinx Projects/TestVisDinamic/clkDivider.vhd" sub00/vhpl02 1560564015
+EN sevensegdisp NULL "/home/erid/Documents/Xilinx Projects/TestVisDinamic/sevenSegDisp.vhd" sub00/vhpl04 1560564017
+EN shiftreg16bit NULL "/home/erid/Documents/Xilinx Projects/TestVisDinamic/ShiftReg16bit.vhd" sub00/vhpl00 1560564019
+EN top NULL "/home/erid/Documents/Xilinx Projects/TestVisDinamic/top.vhf" sub00/vhpl06 1560564021
+AR shiftreg16bit behavioral "/home/erid/Documents/Xilinx Projects/TestVisDinamic/ShiftReg16bit.vhd" sub00/vhpl01 1560564020
+AR sevensegdisp behavioral "/home/erid/Documents/Xilinx Projects/TestVisDinamic/sevenSegDisp.vhd" sub00/vhpl05 1560564018
+AR top behavioral "/home/erid/Documents/Xilinx Projects/TestVisDinamic/top.vhf" sub00/vhpl07 1560564022

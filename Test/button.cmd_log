@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/erid/Documents/GitHub/Xilinx-Projects/Test/button.xst" -ofn "/home/erid/Documents/GitHub/Xilinx-Projects/Test/button.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 button.ngc button.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o button_map.ncd button.ngd button.pcf 
+par -w -intstyle ise -ol high -t 1 button_map.ncd button.ncd button.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml button.twx button.ncd -o button.twr button.pcf 
+bitgen -intstyle ise -f button.ut button.ncd 

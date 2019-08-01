@@ -1,0 +1,8 @@
+vhdl work "traductor4bit.vhd"
+vhdl work "sevenSegDisp.vhd"
+verilog work "registro.v"
+vhdl work "MuxConContSel_16a4.vhd"
+verilog work "key44.v"
+verilog work "flancoP.v"
+vhdl work "clkDivider.vhd"
+vhdl work "top.vhf"

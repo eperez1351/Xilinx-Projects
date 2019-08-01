@@ -1,0 +1,12 @@
+[Inputs]
+sys_clk
+rst
+=row[3:0]=
+[Outputs]
+valid
+=code[3:0]=
+=col[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel key44
+

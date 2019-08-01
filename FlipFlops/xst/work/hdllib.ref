@@ -1,0 +1,6 @@
+EN flipflopdasync NULL /home/erid/Documents/GitHub/Xilinx-Projects/FlipFlops/flipflopD.vhd sub00/vhpl00 1561121883
+EN flipfloptasync NULL /home/erid/Documents/GitHub/Xilinx-Projects/FlipFlops/flipflopTasync.vhd sub00/vhpl02 1561122001
+EN flipflopjkasync NULL /home/erid/Documents/GitHub/Xilinx-Projects/FlipFlops/flipflopJKasync.vhd sub00/vhpl04 1561122834
+AR flipflopdasync behavioral /home/erid/Documents/GitHub/Xilinx-Projects/FlipFlops/flipflopD.vhd sub00/vhpl01 1561121884
+AR flipfloptasync behavioral /home/erid/Documents/GitHub/Xilinx-Projects/FlipFlops/flipflopTasync.vhd sub00/vhpl03 1561122002
+AR flipflopjkasync behavioral /home/erid/Documents/GitHub/Xilinx-Projects/FlipFlops/flipflopJKasync.vhd sub00/vhpl05 1561122835

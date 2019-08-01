@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.xst" -ofn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "flipflop.ngc" flipflop.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o flipflop_map.ncd flipflop.ngd flipflop.pcf 
+par -w -intstyle ise -ol high -t 1 flipflop_map.ncd flipflop.ncd flipflop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml flipflop.twx flipflop.ncd -o flipflop.twr flipflop.pcf 
+bitgen -intstyle ise -f flipflop.ut flipflop.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.xst" -ofn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc flipflop.ucf -p xc3s500e-pq208-5 "flipflop.ngc" flipflop.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o flipflop_map.ncd flipflop.ngd flipflop.pcf 
+par -w -intstyle ise -ol high -t 1 flipflop_map.ncd flipflop.ncd flipflop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml flipflop.twx flipflop.ncd -o flipflop.twr flipflop.pcf -ucf flipflop.ucf 
+bitgen -intstyle ise -f flipflop.ut flipflop.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.xst" -ofn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc flipflop.ucf -p xc3s500e-pq208-5 "flipflop.ngc" flipflop.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o flipflop_map.ncd flipflop.ngd flipflop.pcf 
+par -w -intstyle ise -ol high -t 1 flipflop_map.ncd flipflop.ncd flipflop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml flipflop.twx flipflop.ncd -o flipflop.twr flipflop.pcf -ucf flipflop.ucf 
+bitgen -intstyle ise -f flipflop.ut flipflop.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.xst" -ofn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc flipflop.ucf -p xc3s500e-pq208-5 "flipflop.ngc" flipflop.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o flipflop_map.ncd flipflop.ngd flipflop.pcf 
+par -w -intstyle ise -ol high -t 1 flipflop_map.ncd flipflop.ncd flipflop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml flipflop.twx flipflop.ncd -o flipflop.twr flipflop.pcf -ucf flipflop.ucf 
+bitgen -intstyle ise -f flipflop.ut flipflop.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.xst" -ofn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.syr" 
+vhdtdtfi -lib work flipflop.vhd -prj flipfloptest -o flipflop.spl -module flipflop -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w flipflop.spl {/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.sym} 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.xst" -ofn "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "flipflop.ngc" flipflop.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o flipflop_map.ncd flipflop.ngd flipflop.pcf 
+par -w -intstyle ise -ol high -t 1 flipflop_map.ncd flipflop.ncd flipflop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml flipflop.twx flipflop.ncd -o flipflop.twr flipflop.pcf 
+bitgen -intstyle ise -f flipflop.ut flipflop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "flipflop.ngc" flipflop.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o flipflop_map.ncd flipflop.ngd flipflop.pcf 
+par -w -intstyle ise -ol high -t 1 flipflop_map.ncd flipflop.ncd flipflop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml flipflop.twx flipflop.ncd -o flipflop.twr flipflop.pcf 
+bitgen -intstyle ise -f flipflop.ut flipflop.ncd 

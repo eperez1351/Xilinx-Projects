@@ -1,0 +1,4 @@
+vhdtdtfi -lib work register.vhd -prj VisualDynamic8seg -o register.spl -module register -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work register.vhd -prj VisualDynamic8seg -o register.spl -module register -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work register.vhd -prj VisualDynamic8seg -o register.spl -module register -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work register.vhd -prj VisualDynamic8seg -o register.spl -module register -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

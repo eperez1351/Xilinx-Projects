@@ -1,0 +1,7 @@
+MODULE main
+	SUBMODULE flipflopDasync
+		INSTANCE XLXI_1
+	SUBMODULE flipflopTasync
+		INSTANCE XLXI_2
+	SUBMODULE flipflopJKasync
+		INSTANCE XLXI_3

@@ -1,0 +1,528 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off
+-c 100 -o top_map.ncd top.ngd top.pcf 
+Target Device  : xc3s500e
+Target Package : pq208
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Wed Jul 10 11:26:11 2019
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:            55 out of   9,312    1%
+  Number of 4 input LUTs:                82 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:             64 out of   4,656    1%
+    Number of Slices containing only related logic:      64 out of      64 100%
+    Number of Slices containing unrelated logic:          0 out of      64   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         113 out of   9,312    1%
+    Number used as logic:                82
+    Number used as a route-thru:         31
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 15 out of     158    9%
+  Number of BUFGMUXs:                     2 out of      24    8%
+
+Average Fanout of Non-Clock Nets:                2.67
+
+Peak Memory Usage:  586 MB
+Total REAL time to MAP completion:  2 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 176 block(s) removed
+   3 block(s) optimized away
+ 176 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "Result<0>1" is unused and has been removed.
+ Unused block "XLXI_6/Mcount_count_xor<0>" (XOR) removed.
+  The signal "XLXI_6/Mcount_count_lut<0>" is unused and has been removed.
+   Unused block "XLXI_6/Mcount_count_lut<0>_INV_0" (BUF) removed.
+    The signal "XLXI_6/count<0>" is unused and has been removed.
+     Unused block "XLXI_6/count_0" (FF) removed.
+      The signal "XLXI_6/Mcount_count_eqn_0" is unused and has been removed.
+       Unused block "XLXI_6/Mcount_count_eqn_01" (ROM) removed.
+        The signal "XLXI_6/count_cmp_eq0000" is unused and has been removed.
+         Unused block "XLXI_6/count_cmp_eq0000_wg_cy<7>" (MUX) removed.
+          The signal "XLXI_6/count_cmp_eq0000_wg_cy<6>" is unused and has been removed.
+           Unused block "XLXI_6/count_cmp_eq0000_wg_cy<6>" (MUX) removed.
+            The signal "XLXI_6/count_cmp_eq0000_wg_cy<5>" is unused and has been removed.
+             Unused block "XLXI_6/count_cmp_eq0000_wg_cy<5>" (MUX) removed.
+              The signal "XLXI_6/count_cmp_eq0000_wg_cy<4>" is unused and has been removed.
+               Unused block "XLXI_6/count_cmp_eq0000_wg_cy<4>" (MUX) removed.
+                The signal "XLXI_6/count_cmp_eq0000_wg_cy<3>" is unused and has been removed.
+                 Unused block "XLXI_6/count_cmp_eq0000_wg_cy<3>" (MUX) removed.
+                  The signal "XLXI_6/count_cmp_eq0000_wg_cy<2>" is unused and has been removed.
+                   Unused block "XLXI_6/count_cmp_eq0000_wg_cy<2>" (MUX) removed.
+                    The signal "XLXI_6/count_cmp_eq0000_wg_cy<1>" is unused and has been removed.
+                     Unused block "XLXI_6/count_cmp_eq0000_wg_cy<1>" (MUX) removed.
+                      The signal "XLXI_6/count_cmp_eq0000_wg_cy<0>" is unused and has been removed.
+                       Unused block "XLXI_6/count_cmp_eq0000_wg_cy<0>" (MUX) removed.
+                        The signal "XLXI_6/count_cmp_eq0000_wg_lut<0>" is unused and has been removed.
+                         Unused block "XLXI_6/count_cmp_eq0000_wg_lut<0>" (ROM) removed.
+                          The signal "XLXI_6/count<8>" is unused and has been removed.
+                           Unused block "XLXI_6/count_8" (FF) removed.
+                            The signal "XLXI_6/Mcount_count_eqn_8" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_eqn_81" (ROM) removed.
+                              The signal "Result<8>" is unused and has been removed.
+                               Unused block "XLXI_6/Mcount_count_xor<8>" (XOR) removed.
+                                The signal "XLXI_6/Mcount_count_cy<7>" is unused and has been removed.
+                                 Unused block "XLXI_6/Mcount_count_cy<7>" (MUX) removed.
+                                  The signal "XLXI_6/Mcount_count_cy<6>" is unused and has been removed.
+                                   Unused block "XLXI_6/Mcount_count_cy<6>" (MUX) removed.
+                                    The signal "XLXI_6/Mcount_count_cy<5>" is unused and has been removed.
+                                     Unused block "XLXI_6/Mcount_count_cy<5>" (MUX) removed.
+                                      The signal "XLXI_6/Mcount_count_cy<4>" is unused and has been removed.
+                                       Unused block "XLXI_6/Mcount_count_cy<4>" (MUX) removed.
+                                        The signal "XLXI_6/Mcount_count_cy<3>" is unused and has been removed.
+                                         Unused block "XLXI_6/Mcount_count_cy<3>" (MUX) removed.
+                                          The signal "XLXI_6/Mcount_count_cy<2>" is unused and has been removed.
+                                           Unused block "XLXI_6/Mcount_count_cy<2>" (MUX) removed.
+                                            The signal "XLXI_6/Mcount_count_cy<1>" is unused and has been removed.
+                                             Unused block "XLXI_6/Mcount_count_cy<1>" (MUX) removed.
+                                              The signal "XLXI_6/Mcount_count_cy<0>" is unused and has been removed.
+                                               Unused block "XLXI_6/Mcount_count_cy<0>" (MUX) removed.
+                                              The signal "XLXI_6/Mcount_count_cy<1>_rt" is unused and has been removed.
+                                               Unused block "XLXI_6/Mcount_count_cy<1>_rt" (ROM) removed.
+                                                The signal "XLXI_6/count<1>" is unused and has been removed.
+                                                 Unused block "XLXI_6/count_1" (FF) removed.
+*The signal "XLXI_6/Mcount_count_eqn_1" is unused and has been removed.
+* Unused block "XLXI_6/Mcount_count_eqn_110" (ROM) removed.
+*  The signal "Result<1>1" is unused and has been removed.
+*   Unused block "XLXI_6/Mcount_count_xor<1>" (XOR) removed.
+                                            The signal "XLXI_6/Mcount_count_cy<2>_rt" is unused and has been removed.
+                                             Unused block "XLXI_6/Mcount_count_cy<2>_rt" (ROM) removed.
+                                              The signal "XLXI_6/count<2>" is unused and has been removed.
+                                               Unused block "XLXI_6/count_2" (FF) removed.
+                                                The signal "XLXI_6/Mcount_count_eqn_2" is unused and has been removed.
+                                                 Unused block "XLXI_6/Mcount_count_eqn_210" (ROM) removed.
+*The signal "Result<2>" is unused and has been removed.
+* Unused block "XLXI_6/Mcount_count_xor<2>" (XOR) removed.
+                                          The signal "XLXI_6/Mcount_count_cy<3>_rt" is unused and has been removed.
+                                           Unused block "XLXI_6/Mcount_count_cy<3>_rt" (ROM) removed.
+                                            The signal "XLXI_6/count<3>" is unused and has been removed.
+                                             Unused block "XLXI_6/count_3" (FF) removed.
+                                              The signal "XLXI_6/Mcount_count_eqn_3" is unused and has been removed.
+                                               Unused block "XLXI_6/Mcount_count_eqn_32" (ROM) removed.
+                                                The signal "Result<3>" is unused and has been removed.
+                                                 Unused block "XLXI_6/Mcount_count_xor<3>" (XOR) removed.
+                                        The signal "XLXI_6/Mcount_count_cy<4>_rt" is unused and has been removed.
+                                         Unused block "XLXI_6/Mcount_count_cy<4>_rt" (ROM) removed.
+                                          The signal "XLXI_6/count<4>" is unused and has been removed.
+                                           Unused block "XLXI_6/count_4" (FF) removed.
+                                            The signal "XLXI_6/Mcount_count_eqn_4" is unused and has been removed.
+                                             Unused block "XLXI_6/Mcount_count_eqn_41" (ROM) removed.
+                                              The signal "Result<4>" is unused and has been removed.
+                                               Unused block "XLXI_6/Mcount_count_xor<4>" (XOR) removed.
+                                      The signal "XLXI_6/Mcount_count_cy<5>_rt" is unused and has been removed.
+                                       Unused block "XLXI_6/Mcount_count_cy<5>_rt" (ROM) removed.
+                                        The signal "XLXI_6/count<5>" is unused and has been removed.
+                                         Unused block "XLXI_6/count_5" (FF) removed.
+                                          The signal "XLXI_6/Mcount_count_eqn_5" is unused and has been removed.
+                                           Unused block "XLXI_6/Mcount_count_eqn_51" (ROM) removed.
+                                            The signal "Result<5>" is unused and has been removed.
+                                             Unused block "XLXI_6/Mcount_count_xor<5>" (XOR) removed.
+                                    The signal "XLXI_6/Mcount_count_cy<6>_rt" is unused and has been removed.
+                                     Unused block "XLXI_6/Mcount_count_cy<6>_rt" (ROM) removed.
+                                      The signal "XLXI_6/count<6>" is unused and has been removed.
+                                       Unused block "XLXI_6/count_6" (FF) removed.
+                                        The signal "XLXI_6/Mcount_count_eqn_6" is unused and has been removed.
+                                         Unused block "XLXI_6/Mcount_count_eqn_61" (ROM) removed.
+                                          The signal "Result<6>" is unused and has been removed.
+                                           Unused block "XLXI_6/Mcount_count_xor<6>" (XOR) removed.
+                                  The signal "XLXI_6/Mcount_count_cy<7>_rt" is unused and has been removed.
+                                   Unused block "XLXI_6/Mcount_count_cy<7>_rt" (ROM) removed.
+                                    The signal "XLXI_6/count<7>" is unused and has been removed.
+                                     Unused block "XLXI_6/count_7" (FF) removed.
+                                      The signal "XLXI_6/Mcount_count_eqn_7" is unused and has been removed.
+                                       Unused block "XLXI_6/Mcount_count_eqn_71" (ROM) removed.
+                                        The signal "Result<7>" is unused and has been removed.
+                                         Unused block "XLXI_6/Mcount_count_xor<7>" (XOR) removed.
+                                The signal "XLXI_6/Mcount_count_cy<8>_rt" is unused and has been removed.
+                                 Unused block "XLXI_6/Mcount_count_cy<8>_rt" (ROM) removed.
+                          The signal "XLXI_6/count<9>" is unused and has been removed.
+                           Unused block "XLXI_6/count_9" (FF) removed.
+                            The signal "XLXI_6/Mcount_count_eqn_9" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_eqn_91" (ROM) removed.
+                              The signal "Result<9>" is unused and has been removed.
+                               Unused block "XLXI_6/Mcount_count_xor<9>" (XOR) removed.
+                                The signal "XLXI_6/Mcount_count_cy<8>" is unused and has been removed.
+                                 Unused block "XLXI_6/Mcount_count_cy<8>" (MUX) removed.
+                                The signal "XLXI_6/Mcount_count_cy<9>_rt" is unused and has been removed.
+                                 Unused block "XLXI_6/Mcount_count_cy<9>_rt" (ROM) removed.
+                          The signal "XLXI_6/count<10>" is unused and has been removed.
+                           Unused block "XLXI_6/count_10" (FF) removed.
+                            The signal "XLXI_6/Mcount_count_eqn_10" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_eqn_101" (ROM) removed.
+                              The signal "Result<10>" is unused and has been removed.
+                               Unused block "XLXI_6/Mcount_count_xor<10>" (XOR) removed.
+                                The signal "XLXI_6/Mcount_count_cy<9>" is unused and has been removed.
+                                 Unused block "XLXI_6/Mcount_count_cy<9>" (MUX) removed.
+                                The signal "XLXI_6/Mcount_count_cy<10>_rt" is unused and has been removed.
+                                 Unused block "XLXI_6/Mcount_count_cy<10>_rt" (ROM) removed.
+                      The signal "XLXI_6/count_cmp_eq0000_wg_lut<1>" is unused and has been removed.
+                       Unused block "XLXI_6/count_cmp_eq0000_wg_lut<1>" (ROM) removed.
+                        The signal "XLXI_6/count<11>" is unused and has been removed.
+                         Unused block "XLXI_6/count_11" (FF) removed.
+                          The signal "XLXI_6/Mcount_count_eqn_11" is unused and has been removed.
+                           Unused block "XLXI_6/Mcount_count_eqn_111" (ROM) removed.
+                            The signal "Result<11>" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_xor<11>" (XOR) removed.
+                              The signal "XLXI_6/Mcount_count_cy<10>" is unused and has been removed.
+                               Unused block "XLXI_6/Mcount_count_cy<10>" (MUX) removed.
+                              The signal "XLXI_6/Mcount_count_cy<11>_rt" is unused and has been removed.
+                               Unused block "XLXI_6/Mcount_count_cy<11>_rt" (ROM) removed.
+                        The signal "XLXI_6/count<12>" is unused and has been removed.
+                         Unused block "XLXI_6/count_12" (FF) removed.
+                          The signal "XLXI_6/Mcount_count_eqn_12" is unused and has been removed.
+                           Unused block "XLXI_6/Mcount_count_eqn_121" (ROM) removed.
+                            The signal "Result<12>" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_xor<12>" (XOR) removed.
+                              The signal "XLXI_6/Mcount_count_cy<11>" is unused and has been removed.
+                               Unused block "XLXI_6/Mcount_count_cy<11>" (MUX) removed.
+                              The signal "XLXI_6/Mcount_count_cy<12>_rt" is unused and has been removed.
+                               Unused block "XLXI_6/Mcount_count_cy<12>_rt" (ROM) removed.
+                        The signal "XLXI_6/count<13>" is unused and has been removed.
+                         Unused block "XLXI_6/count_13" (FF) removed.
+                          The signal "XLXI_6/Mcount_count_eqn_13" is unused and has been removed.
+                           Unused block "XLXI_6/Mcount_count_eqn_131" (ROM) removed.
+                            The signal "Result<13>" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_xor<13>" (XOR) removed.
+                              The signal "XLXI_6/Mcount_count_cy<12>" is unused and has been removed.
+                               Unused block "XLXI_6/Mcount_count_cy<12>" (MUX) removed.
+                              The signal "XLXI_6/Mcount_count_cy<13>_rt" is unused and has been removed.
+                               Unused block "XLXI_6/Mcount_count_cy<13>_rt" (ROM) removed.
+                    The signal "XLXI_6/count_cmp_eq0000_wg_lut<2>" is unused and has been removed.
+                     Unused block "XLXI_6/count_cmp_eq0000_wg_lut<2>" (ROM) removed.
+                      The signal "XLXI_6/count<14>" is unused and has been removed.
+                       Unused block "XLXI_6/count_14" (FF) removed.
+                        The signal "XLXI_6/Mcount_count_eqn_14" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_eqn_141" (ROM) removed.
+                          The signal "Result<14>" is unused and has been removed.
+                           Unused block "XLXI_6/Mcount_count_xor<14>" (XOR) removed.
+                            The signal "XLXI_6/Mcount_count_cy<13>" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_cy<13>" (MUX) removed.
+                            The signal "XLXI_6/Mcount_count_cy<14>_rt" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_cy<14>_rt" (ROM) removed.
+                      The signal "XLXI_6/count<15>" is unused and has been removed.
+                       Unused block "XLXI_6/count_15" (FF) removed.
+                        The signal "XLXI_6/Mcount_count_eqn_15" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_eqn_151" (ROM) removed.
+                          The signal "Result<15>" is unused and has been removed.
+                           Unused block "XLXI_6/Mcount_count_xor<15>" (XOR) removed.
+                            The signal "XLXI_6/Mcount_count_cy<14>" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_cy<14>" (MUX) removed.
+                            The signal "XLXI_6/Mcount_count_cy<15>_rt" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_cy<15>_rt" (ROM) removed.
+                      The signal "XLXI_6/count<16>" is unused and has been removed.
+                       Unused block "XLXI_6/count_16" (FF) removed.
+                        The signal "XLXI_6/Mcount_count_eqn_16" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_eqn_161" (ROM) removed.
+                          The signal "Result<16>" is unused and has been removed.
+                           Unused block "XLXI_6/Mcount_count_xor<16>" (XOR) removed.
+                            The signal "XLXI_6/Mcount_count_cy<15>" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_cy<15>" (MUX) removed.
+                            The signal "XLXI_6/Mcount_count_cy<16>_rt" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_cy<16>_rt" (ROM) removed.
+                  The signal "XLXI_6/count_cmp_eq0000_wg_lut<3>" is unused and has been removed.
+                   Unused block "XLXI_6/count_cmp_eq0000_wg_lut<3>" (ROM) removed.
+                    The signal "XLXI_6/count<18>" is unused and has been removed.
+                     Unused block "XLXI_6/count_18" (FF) removed.
+                      The signal "XLXI_6/Mcount_count_eqn_18" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_eqn_181" (ROM) removed.
+                        The signal "Result<18>" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_xor<18>" (XOR) removed.
+                          The signal "XLXI_6/Mcount_count_cy<17>" is unused and has been removed.
+                           Unused block "XLXI_6/Mcount_count_cy<17>" (MUX) removed.
+                            The signal "XLXI_6/Mcount_count_cy<16>" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_cy<16>" (MUX) removed.
+                            The signal "XLXI_6/Mcount_count_cy<17>_rt" is unused and has been removed.
+                             Unused block "XLXI_6/Mcount_count_cy<17>_rt" (ROM) removed.
+                              The signal "XLXI_6/count<17>" is unused and has been removed.
+                               Unused block "XLXI_6/count_17" (FF) removed.
+                                The signal "XLXI_6/Mcount_count_eqn_17" is unused and has been removed.
+                                 Unused block "XLXI_6/Mcount_count_eqn_171" (ROM) removed.
+                                  The signal "Result<17>" is unused and has been removed.
+                                   Unused block "XLXI_6/Mcount_count_xor<17>" (XOR) removed.
+                          The signal "XLXI_6/Mcount_count_cy<18>_rt" is unused and has been removed.
+                           Unused block "XLXI_6/Mcount_count_cy<18>_rt" (ROM) removed.
+                    The signal "XLXI_6/count<19>" is unused and has been removed.
+                     Unused block "XLXI_6/count_19" (FF) removed.
+                      The signal "XLXI_6/Mcount_count_eqn_19" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_eqn_191" (ROM) removed.
+                        The signal "Result<19>" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_xor<19>" (XOR) removed.
+                          The signal "XLXI_6/Mcount_count_cy<18>" is unused and has been removed.
+                           Unused block "XLXI_6/Mcount_count_cy<18>" (MUX) removed.
+                          The signal "XLXI_6/Mcount_count_cy<19>_rt" is unused and has been removed.
+                           Unused block "XLXI_6/Mcount_count_cy<19>_rt" (ROM) removed.
+                The signal "XLXI_6/count_cmp_eq0000_wg_lut<4>" is unused and has been removed.
+                 Unused block "XLXI_6/count_cmp_eq0000_wg_lut<4>" (ROM) removed.
+                  The signal "XLXI_6/count<20>" is unused and has been removed.
+                   Unused block "XLXI_6/count_20" (FF) removed.
+                    The signal "XLXI_6/Mcount_count_eqn_20" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_eqn_201" (ROM) removed.
+                      The signal "Result<20>" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_xor<20>" (XOR) removed.
+                        The signal "XLXI_6/Mcount_count_cy<19>" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_cy<19>" (MUX) removed.
+                        The signal "XLXI_6/Mcount_count_cy<20>_rt" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_cy<20>_rt" (ROM) removed.
+                  The signal "XLXI_6/count<21>" is unused and has been removed.
+                   Unused block "XLXI_6/count_21" (FF) removed.
+                    The signal "XLXI_6/Mcount_count_eqn_21" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_eqn_211" (ROM) removed.
+                      The signal "Result<21>" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_xor<21>" (XOR) removed.
+                        The signal "XLXI_6/Mcount_count_cy<20>" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_cy<20>" (MUX) removed.
+                        The signal "XLXI_6/Mcount_count_cy<21>_rt" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_cy<21>_rt" (ROM) removed.
+                  The signal "XLXI_6/count<22>" is unused and has been removed.
+                   Unused block "XLXI_6/count_22" (FF) removed.
+                    The signal "XLXI_6/Mcount_count_eqn_22" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_eqn_221" (ROM) removed.
+                      The signal "Result<22>" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_xor<22>" (XOR) removed.
+                        The signal "XLXI_6/Mcount_count_cy<21>" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_cy<21>" (MUX) removed.
+                        The signal "XLXI_6/Mcount_count_cy<22>_rt" is unused and has been removed.
+                         Unused block "XLXI_6/Mcount_count_cy<22>_rt" (ROM) removed.
+              The signal "XLXI_6/count_cmp_eq0000_wg_lut<5>" is unused and has been removed.
+               Unused block "XLXI_6/count_cmp_eq0000_wg_lut<5>" (ROM) removed.
+                The signal "XLXI_6/count<23>" is unused and has been removed.
+                 Unused block "XLXI_6/count_23" (FF) removed.
+                  The signal "XLXI_6/Mcount_count_eqn_23" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_eqn_231" (ROM) removed.
+                    The signal "Result<23>" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_xor<23>" (XOR) removed.
+                      The signal "XLXI_6/Mcount_count_cy<22>" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_cy<22>" (MUX) removed.
+                      The signal "XLXI_6/Mcount_count_cy<23>_rt" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_cy<23>_rt" (ROM) removed.
+                The signal "XLXI_6/count<24>" is unused and has been removed.
+                 Unused block "XLXI_6/count_24" (FF) removed.
+                  The signal "XLXI_6/Mcount_count_eqn_24" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_eqn_241" (ROM) removed.
+                    The signal "Result<24>" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_xor<24>" (XOR) removed.
+                      The signal "XLXI_6/Mcount_count_cy<23>" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_cy<23>" (MUX) removed.
+                      The signal "XLXI_6/Mcount_count_cy<24>_rt" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_cy<24>_rt" (ROM) removed.
+                The signal "XLXI_6/count<25>" is unused and has been removed.
+                 Unused block "XLXI_6/count_25" (FF) removed.
+                  The signal "XLXI_6/Mcount_count_eqn_25" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_eqn_251" (ROM) removed.
+                    The signal "Result<25>" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_xor<25>" (XOR) removed.
+                      The signal "XLXI_6/Mcount_count_cy<24>" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_cy<24>" (MUX) removed.
+                      The signal "XLXI_6/Mcount_count_cy<25>_rt" is unused and has been removed.
+                       Unused block "XLXI_6/Mcount_count_cy<25>_rt" (ROM) removed.
+            The signal "XLXI_6/count_cmp_eq0000_wg_lut<6>" is unused and has been removed.
+             Unused block "XLXI_6/count_cmp_eq0000_wg_lut<6>" (ROM) removed.
+              The signal "XLXI_6/count<26>" is unused and has been removed.
+               Unused block "XLXI_6/count_26" (FF) removed.
+                The signal "XLXI_6/Mcount_count_eqn_26" is unused and has been removed.
+                 Unused block "XLXI_6/Mcount_count_eqn_261" (ROM) removed.
+                  The signal "Result<26>" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_xor<26>" (XOR) removed.
+                    The signal "XLXI_6/Mcount_count_cy<25>" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_cy<25>" (MUX) removed.
+                    The signal "XLXI_6/Mcount_count_cy<26>_rt" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_cy<26>_rt" (ROM) removed.
+              The signal "XLXI_6/count<27>" is unused and has been removed.
+               Unused block "XLXI_6/count_27" (FF) removed.
+                The signal "XLXI_6/Mcount_count_eqn_27" is unused and has been removed.
+                 Unused block "XLXI_6/Mcount_count_eqn_271" (ROM) removed.
+                  The signal "Result<27>" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_xor<27>" (XOR) removed.
+                    The signal "XLXI_6/Mcount_count_cy<26>" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_cy<26>" (MUX) removed.
+                    The signal "XLXI_6/Mcount_count_cy<27>_rt" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_cy<27>_rt" (ROM) removed.
+              The signal "XLXI_6/count<28>" is unused and has been removed.
+               Unused block "XLXI_6/count_28" (FF) removed.
+                The signal "XLXI_6/Mcount_count_eqn_28" is unused and has been removed.
+                 Unused block "XLXI_6/Mcount_count_eqn_281" (ROM) removed.
+                  The signal "Result<28>" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_xor<28>" (XOR) removed.
+                    The signal "XLXI_6/Mcount_count_cy<27>" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_cy<27>" (MUX) removed.
+                    The signal "XLXI_6/Mcount_count_cy<28>_rt" is unused and has been removed.
+                     Unused block "XLXI_6/Mcount_count_cy<28>_rt" (ROM) removed.
+          The signal "XLXI_6/count_cmp_eq0000_wg_lut<7>" is unused and has been removed.
+           Unused block "XLXI_6/count_cmp_eq0000_wg_lut<7>" (ROM) removed.
+            The signal "XLXI_6/count<29>" is unused and has been removed.
+             Unused block "XLXI_6/count_29" (FF) removed.
+              The signal "XLXI_6/Mcount_count_eqn_29" is unused and has been removed.
+               Unused block "XLXI_6/Mcount_count_eqn_291" (ROM) removed.
+                The signal "Result<29>" is unused and has been removed.
+                 Unused block "XLXI_6/Mcount_count_xor<29>" (XOR) removed.
+                  The signal "XLXI_6/Mcount_count_cy<28>" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_cy<28>" (MUX) removed.
+                  The signal "XLXI_6/Mcount_count_cy<29>_rt" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_cy<29>_rt" (ROM) removed.
+            The signal "XLXI_6/count<30>" is unused and has been removed.
+             Unused block "XLXI_6/count_30" (FF) removed.
+              The signal "XLXI_6/Mcount_count_eqn_30" is unused and has been removed.
+               Unused block "XLXI_6/Mcount_count_eqn_301" (ROM) removed.
+                The signal "Result<30>" is unused and has been removed.
+                 Unused block "XLXI_6/Mcount_count_xor<30>" (XOR) removed.
+                  The signal "XLXI_6/Mcount_count_cy<29>" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_cy<29>" (MUX) removed.
+                  The signal "XLXI_6/Mcount_count_cy<30>_rt" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_cy<30>_rt" (ROM) removed.
+            The signal "XLXI_6/count<31>" is unused and has been removed.
+             Unused block "XLXI_6/count_31" (FF) removed.
+              The signal "XLXI_6/Mcount_count_eqn_31" is unused and has been removed.
+               Unused block "XLXI_6/Mcount_count_eqn_311" (ROM) removed.
+                The signal "Result<31>" is unused and has been removed.
+                 Unused block "XLXI_6/Mcount_count_xor<31>" (XOR) removed.
+                  The signal "XLXI_6/Mcount_count_cy<30>" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_cy<30>" (MUX) removed.
+                  The signal "XLXI_6/Mcount_count_xor<31>_rt" is unused and has been removed.
+                   Unused block "XLXI_6/Mcount_count_xor<31>_rt" (ROM) removed.
+The signal "XLXI_6/tmp_not0001" is unused and has been removed.
+ Unused block "XLXI_6/tmp_not00011_INV_0" (BUF) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XLXI_19/XLXI_7
+VCC 		XLXI_35
+FDCE 		XLXI_6/tmp
+   optimized to 0
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| carry_out                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| clk                                | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| display<0>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| display<1>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| display<2>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| display<3>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| display<4>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| display<5>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| display<6>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| display<7>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| reset                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| selector<0>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| selector<1>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| selector<2>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| selector<3>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

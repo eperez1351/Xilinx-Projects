@@ -1,0 +1,32 @@
+V3 18
+FL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/clk1hz.vhd 2019/06/10.14:56:39 P.20131013
+EN work/clk1hz 1562183648 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/clk1hz.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk1hz/Behavioral 1562183649 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/clk1hz.vhd \
+      EN work/clk1hz 1562183648
+FL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/flipflopD.vhd 2019/06/21.08:58:01 P.20131013
+EN work/flipflopDasync 1562183650 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/flipflopD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/flipflopDasync/Behavioral 1562183651 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/flipflopD.vhd \
+      EN work/flipflopDasync 1562183650
+FL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/top.vhf 2019/07/03.15:54:05 P.20131013
+EN work/top 1562183652 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/top/BEHAVIORAL 1562183653 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/top.vhf \
+      EN work/top 1562183652 CP clk1hz CP flipflopDasync
+FL "/home/erid/Documents/Xilinx Projects/flipfloptest/clk1hz.vhd" 2019/06/10.14:56:39 P.20131013
+FL "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.vhd" 2019/06/14.09:56:34 P.20131013
+EN work/flipflop 1560522737 \
+      FL "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/flipflop/Behavioral 1560522738 \
+      FL "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.vhd" \
+      EN work/flipflop 1560522737
+FL "/home/erid/Documents/Xilinx Projects/flipfloptest/top.vhf" 2019/06/14.09:59:54 P.20131013

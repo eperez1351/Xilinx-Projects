@@ -1,0 +1,6 @@
+AR shiftreg4bitin16bitout behavioral "/home/erid/Documents/Xilinx Projects/testRegister/ShiftReg4bitIN16bitOUT.vhd" sub00/vhpl01 1560196238
+AR clk1hz behavioral "/home/erid/Documents/Xilinx Projects/testRegister/clk1hz.vhd" sub00/vhpl03 1560196236
+EN shiftreg4bitin16bitout NULL "/home/erid/Documents/Xilinx Projects/testRegister/ShiftReg4bitIN16bitOUT.vhd" sub00/vhpl00 1560196237
+EN top NULL "/home/erid/Documents/Xilinx Projects/testRegister/top.vhf" sub00/vhpl04 1560196239
+EN clk1hz NULL "/home/erid/Documents/Xilinx Projects/testRegister/clk1hz.vhd" sub00/vhpl02 1560196235
+AR top behavioral "/home/erid/Documents/Xilinx Projects/testRegister/top.vhf" sub00/vhpl05 1560196240

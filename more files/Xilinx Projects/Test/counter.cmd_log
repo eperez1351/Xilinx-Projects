@@ -1,0 +1,7 @@
+vhdtdtfi -lib work counter.vhd -prj Test -o counter.spl -module counter -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter.spl {/home/erid/Documents/Xilinx Projects/Test/counter.sym} 
+vhdtdtfi -lib work counter.vhd -prj Test -o counter.spl -module counter -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work counter.vhd -prj Test -o counter.spl -module counter -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work counter.vhd -prj Test -o counter.spl -module counter -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work counter.vhd -prj Test -o counter.spl -module counter -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w counter.spl {/home/erid/Documents/Xilinx Projects/Test/counter.sym} 

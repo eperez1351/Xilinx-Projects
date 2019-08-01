@@ -1,0 +1,10 @@
+AR clk1hz behavioral "/home/erid/Documents/Xilinx Projects/sevenSegTest/clk1hz.vhd" sub00/vhpl03 1560368922
+AR clkdivider behavioral "/home/erid/Documents/Xilinx Projects/sevenSegTest/clkDivider.vhd" sub00/vhpl05 1560368916
+EN clkdivider NULL "/home/erid/Documents/Xilinx Projects/sevenSegTest/clkDivider.vhd" sub00/vhpl04 1560368915
+EN sevensegdisp NULL "/home/erid/Documents/Xilinx Projects/sevenSegTest/sevenSegDisp.vhd" sub00/vhpl06 1560368917
+EN top NULL "/home/erid/Documents/Xilinx Projects/sevenSegTest/top.vhf" sub00/vhpl08 1560368923
+EN clk1hz NULL "/home/erid/Documents/Xilinx Projects/sevenSegTest/clk1hz.vhd" sub00/vhpl02 1560368921
+EN upcounter16bit NULL "/home/erid/Documents/Xilinx Projects/sevenSegTest/upcounter16bit.vhd" sub00/vhpl00 1560368919
+AR upcounter16bit behavioral "/home/erid/Documents/Xilinx Projects/sevenSegTest/upcounter16bit.vhd" sub00/vhpl01 1560368920
+AR sevensegdisp behavioral "/home/erid/Documents/Xilinx Projects/sevenSegTest/sevenSegDisp.vhd" sub00/vhpl07 1560368918
+AR top behavioral "/home/erid/Documents/Xilinx Projects/sevenSegTest/top.vhf" sub00/vhpl09 1560368924

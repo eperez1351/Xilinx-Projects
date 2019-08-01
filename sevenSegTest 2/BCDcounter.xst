@@ -1,0 +1,5 @@
+set -tmpdir "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/xst/projnav.tmp"
+set -xsthdpdir "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/xst"
+elaborate
+-ifn BCDcounter.prj
+-ifmt mixed

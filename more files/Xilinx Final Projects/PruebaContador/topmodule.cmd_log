@@ -1,0 +1,90 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.xst" -ofn "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebcontador.ucf -p xc3s500e-pq208-5 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf pruebcontador.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 

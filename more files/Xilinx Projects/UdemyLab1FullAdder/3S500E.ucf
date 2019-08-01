@@ -1,0 +1,31 @@
+##############################################Core3S500E#################################################
+#NET "clk" LOC = "P184" ;
+
+#NET "RST" LOC = "P101" ;
+
+NET "S" LOC =" P68" ;
+NET "C_out" LOC = "P78" ;
+#NET "led[2]" LOC = "P83" ;
+#NET "led[3]" LOC = "P89";
+
+############################################### Mother Board ########################################
+#NET "Buzzer"  LOC = "p123"  ;
+
+#NET "DS18B20"  LOC = "p126"  ;
+
+#JOYSTICK
+#NET "down"  LOC = "p116"  ;
+#NET "up"  LOC = "p122"  ;
+#NET "left"  LOC = "p119"  ;
+#NET "right"  LOC = "p120"  ;
+#NET "press"  LOC = "p115"  ;
+
+#8I/Os_1
+NET "x"  LOC = "p75"  ;
+NET "y"  LOC = "p76"  ;
+NET "C_in"  LOC = "p69"  ;
+#NET "C"  LOC = "p74"  ;
+NET "x"  LOC = "p64"  ;
+NET "y"  LOC = "p65"  ;
+#NET "8I/Os_1_7"  LOC = "p62"  ;
+#NET "8I/Os_1_8"  LOC = "p63"  ;

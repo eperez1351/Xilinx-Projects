@@ -1,0 +1,2 @@
+vhdtdtfi -lib work mux4bit_4in1out.vhd -prj sevenSegAndMatrixKeyb -o mux4bit_4in1out.spl -module mux4bit_4in1out -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e mux4bit_4in1out.spl {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/mux4bit_4in1out.sym} 

@@ -1,0 +1,97 @@
+V3 50
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/clk1hz.vhd" 2019/07/10.16:11:02 P.20131013
+EN work/clk1hz 1564597803 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/clk1hz.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk1hz/Behavioral 1564597804 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/clk1hz.vhd" \
+      EN work/clk1hz 1564597803
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/CLK60Hz.vhd" 2019/07/31.13:26:20 P.20131013
+EN work/CKLminute 1564593982 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/CLK60Hz.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/CKLminute/Behavioral 1564593983 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/CLK60Hz.vhd" \
+      EN work/CKLminute 1564593982
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/clkDivider.vhd" 2019/06/29.23:51:41 P.20131013
+EN work/clkDivider 1564597793 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/clkDivider.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clkDivider/Behavioral 1564597794 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/clkDivider.vhd" \
+      EN work/clkDivider 1564597793
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockCounter.vhd" 2019/07/31.13:45:25 P.20131013
+EN work/ClockCounter 1564597799 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockCounter.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ClockCounter/Behavioral 1564597800 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockCounter.vhd" \
+      EN work/ClockCounter 1564597799 CP counter74190
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockCounterReset.vhd" 2019/07/31.13:16:23 P.20131013
+EN work/ClockCounterReset 1564597801 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockCounterReset.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ClockCounterReset/Behavioral 1564597802 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockCounterReset.vhd" \
+      EN work/ClockCounterReset 1564597801
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockStateMachine.vhd" 2019/07/17.14:44:41 P.20131013
+EN work/ClockStateMachine 1564593064 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockStateMachine.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ClockStateMachine/Behavioral 1564593065 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockStateMachine.vhd" \
+      EN work/ClockStateMachine 1564593064
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/counter74190.vhd" 2019/07/31.13:06:01 P.20131013
+EN work/counter74190 1564597791 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/counter74190.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/counter74190/Behavioral 1564597792 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/counter74190.vhd" \
+      EN work/counter74190 1564597791
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/FlexCount.vhd" 2019/07/14.15:21:46 P.20131013
+EN work/FlexCount 1563132109 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/FlexCount.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/FlexCount/Behavioral 1563132110 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/FlexCount.vhd" \
+      EN work/FlexCount 1563132109
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/MuxConContSel_16a4.vhd" 2019/06/17.15:05:10 P.20131013
+EN work/MuxConContSel_16a4 1564597797 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/MuxConContSel_16a4.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/MuxConContSel_16a4/Behavioral 1564597798 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/MuxConContSel_16a4.vhd" \
+      EN work/MuxConContSel_16a4 1564597797
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/sevenSegDisp.vhd" 2019/06/10.14:50:11 P.20131013
+EN work/sevenSegDisp 1564597795 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/sevenSegDisp.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/sevenSegDisp/Behavioral 1564597796 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/sevenSegDisp.vhd" \
+      EN work/sevenSegDisp 1564597795
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/topmodule.vhf" 2019/07/31.14:29:47 P.20131013
+EN work/VisDyn_MUSER_topmodule 1564597805 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/topmodule.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/VisDyn_MUSER_topmodule/BEHAVIORAL 1564597806 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/topmodule.vhf" \
+      EN work/VisDyn_MUSER_topmodule 1564597805 CP clkDivider CP sevenSegDisp \
+      CP MuxConContSel_16a4 CP GND
+EN work/topmodule 1564597807 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/topmodule.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/topmodule/BEHAVIORAL 1564597808 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/topmodule.vhf" \
+      EN work/topmodule 1564597807 CP VisDyn_MUSER_topmodule CP ClockCounter \
+      CP ClockCounterReset CP clk1hz CP VCC CP INV
+FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/VisDyn.vhf" 2019/07/31.13:40:26 P.20131013
+EN work/VisDyn 1564597809 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/VisDyn.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/VisDyn/BEHAVIORAL 1564597810 \
+      FL "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/VisDyn.vhf" \
+      EN work/VisDyn 1564597809 CP clkDivider CP sevenSegDisp CP MuxConContSel_16a4 \
+      CP GND

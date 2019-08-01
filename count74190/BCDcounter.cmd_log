@@ -1,0 +1,16 @@
+vhdtdtfi -lib work BCDcounter.vhd -prj count74190 -o BCDcounter.spl -module BCDcounter -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BCDcounter.spl /home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.sym 
+xst -intstyle ise -ifn "/home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.xst" -ofn "/home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.syr" 
+xst -intstyle ise -ifn "/home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.xst" -ofn "/home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.syr" 
+xst -intstyle ise -ifn "/home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.xst" -ofn "/home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s500e-pq208-5 BCDcounter.ngc BCDcounter.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BCDcounter_map.ncd BCDcounter.ngd BCDcounter.pcf 
+par -w -intstyle ise -ol high -t 1 BCDcounter_map.ncd BCDcounter.ncd BCDcounter.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BCDcounter.twx BCDcounter.ncd -o BCDcounter.twr BCDcounter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f BCDcounter.ut BCDcounter.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.xst" -ofn "/home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s500e-pq208-5 BCDcounter.ngc BCDcounter.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BCDcounter_map.ncd BCDcounter.ngd BCDcounter.pcf 
+par -w -intstyle ise -ol high -t 1 BCDcounter_map.ncd BCDcounter.ncd BCDcounter.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BCDcounter.twx BCDcounter.ncd -o BCDcounter.twr BCDcounter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f BCDcounter.ut BCDcounter.ncd 

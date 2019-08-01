@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jun 26 11:35:43 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "reset" LOCATE = SITE "P101" LEVEL 1;
+COMP "count_out<0>" LOCATE = SITE "P68" LEVEL 1;
+COMP "count_out<1>" LOCATE = SITE "P78" LEVEL 1;
+COMP "count_out<2>" LOCATE = SITE "P83" LEVEL 1;
+COMP "count_out<3>" LOCATE = SITE "P89" LEVEL 1;
+COMP "updw" LOCATE = SITE "P75" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+COMP "loadenb" LOCATE = SITE "P76" LEVEL 1;
+COMP "clkenb" LOCATE = SITE "P74" LEVEL 1;
+COMP "clk" LOCATE = SITE "P184" LEVEL 1;
+SCHEMATIC END;
+

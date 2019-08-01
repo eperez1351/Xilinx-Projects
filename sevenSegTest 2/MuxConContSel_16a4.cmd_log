@@ -1,0 +1,2 @@
+vhdtdtfi -lib work MuxConContSel_16a4.vhd -prj sevenSegTest -o MuxConContSel_16a4.spl -module MuxConContSel_16a4 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w MuxConContSel_16a4.spl {/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/MuxConContSel_16a4.sym} 

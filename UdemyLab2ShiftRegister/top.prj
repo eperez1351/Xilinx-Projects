@@ -1,0 +1,3 @@
+vhdl work "Shift_Reg.vhd"
+vhdl work "clk1hz.vhd"
+vhdl work "top.vhf"

@@ -1,0 +1,14 @@
+##############################################Core3S500E#################################################
+
+
+############################################### Mother Board ########################################
+NET "clk"  LOC = "p184"  ;
+NET "reset"  LOC = "p101"  ;
+
+NET "twoBitOut[0]" LOC =" P68" ;
+NET "twoBitOut[1]" LOC = "P78" ;
+NET "clkout" LOC = "P83" ;
+#net "reset" pullup;
+
+#net "twobitout[0]" pullup;
+#net "twobitout[1]" pullup;

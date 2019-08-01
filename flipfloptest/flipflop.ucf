@@ -1,0 +1,8 @@
+
+NET "CLK"  LOC = "p184"  ;
+
+NET "reset" LOC = "P101" ;
+
+NET "out_ff"  LOC = "p102"  ;
+
+NET "in_ff"  LOC = "p75"  ;

@@ -1,0 +1,11 @@
+[Inputs]
+reset
+updw
+clk
+loadenb
+clkenb
+=load_in[3:0]=
+[Outputs]
+carry_out
+=count_out[3:0]=
+[BiDir]

@@ -1,0 +1,5 @@
+[Inputs]
+=fromKeyb[3:0]=
+[Outputs]
+=toRegister[3:0]=
+[BiDir]

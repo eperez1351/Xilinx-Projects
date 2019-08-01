@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/erid/Documents/Xilinx Projects/Test/clkDivider_isim_beh.exe" -prj "/home/erid/Documents/Xilinx Projects/Test/clkDivider_beh.prj" "work.clkDivider" 

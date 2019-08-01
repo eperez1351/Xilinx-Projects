@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl keyboard_drc.vhf -w {/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/keyboard.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym keyboard {/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/keyboard.sch} {/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/keyboard.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym keyboard {/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/keyboard.sch} {/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/keyboard.sym} 

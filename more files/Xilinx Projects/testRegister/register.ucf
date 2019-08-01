@@ -1,0 +1,18 @@
+NET "CLK"  LOC = "p184"  ;
+
+NET "d1"  LOC = "p68"  ;
+NET "d2"  LOC = "p78"  ;
+NET "d3"  LOC = "p83"  ;
+NET "d4"  LOC = "p89"  ;
+
+NET "RESET"  LOC = "p101"  ;
+
+NET "inputbutton"  LOC = "p75"  ;
+#NET "registerenable"  LOC = "p76"  ;
+#NET "DATA[2]"  LOC = "p69"  ;
+#NET "DATA[3]"  LOC = "p74"  ;
+
+NET "inputbutton"   PULLUP;
+#NET "registerenable"   PULLUP;
+#NET "DATA[2]"   PULLUP;
+#NET "DATA[3]"   PULLUP;

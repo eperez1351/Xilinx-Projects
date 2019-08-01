@@ -1,0 +1,8 @@
+AR clk1hz behavioral /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/clk1hz.vhd sub00/vhpl03 1562183649
+EN flipflopdasync NULL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/flipflopD.vhd sub00/vhpl06 1562183650
+EN top NULL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/top.vhf sub00/vhpl04 1562183652
+AR flipflopdasync behavioral /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/flipflopD.vhd sub00/vhpl07 1562183651
+EN clk1hz NULL /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/clk1hz.vhd sub00/vhpl02 1562183648
+EN flipflop NULL "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.vhd" sub00/vhpl00 1560522737
+AR flipflop behavioral "/home/erid/Documents/Xilinx Projects/flipfloptest/flipflop.vhd" sub00/vhpl01 1560522738
+AR top behavioral /home/erid/Documents/GitHub/Xilinx-Projects/flipfloptest/top.vhf sub00/vhpl05 1562183653

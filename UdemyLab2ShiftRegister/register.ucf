@@ -1,0 +1,23 @@
+#NET "CLK"  LOC = "p184"  ;
+
+NET "a"  LOC = "p68"  ;
+NET "b"  LOC = "p78"  ;
+NET "c"  LOC = "p83"  ;
+NET "d"  LOC = "p89"  ;
+
+NET "RESET"  LOC = "p101"  ;
+
+NET "data_in"  LOC = "p75"  ;
+#NET "loadenb"  LOC = "p76"  ;
+#NET "clkenb"  LOC = "p69"  ;
+NET "clk"  LOC = "p74"  ;
+
+NET "data_in"   PULLUP;
+#NET "loadenb"   PULLUP;
+#NET "clk"   PULLUP;
+NET "clk"   PULLUP;
+
+#NET "a"  pullup ;
+#NET "b"  pullup ;
+#NET "c"  pullup  ;
+#NET "d"  pullup  ;

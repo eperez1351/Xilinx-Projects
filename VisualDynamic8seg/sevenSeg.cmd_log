@@ -1,0 +1,6 @@
+vhdtdtfi -lib work sevenSeg.vhd -prj VisualDynamic8seg -o sevenSeg.spl -module sevenSeg -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w sevenSeg.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/sevenSeg.sym} 
+vhdtdtfi -lib work sevenSeg.vhd -prj VisualDynamic8seg -o sevenSeg.spl -module sevenSeg -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w sevenSeg.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/sevenSeg.sym} 
+vhdtdtfi -lib work sevenSeg.vhd -prj VisualDynamic8seg -o sevenSeg.spl -module sevenSeg -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w sevenSeg.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/sevenSeg.sym} 

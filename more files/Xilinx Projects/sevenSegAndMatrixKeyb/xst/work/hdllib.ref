@@ -1,0 +1,13 @@
+AR clkdivider behavioral "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/clkDivider.vhd" sub00/vhpl01 1560802178
+EN traductor4bit NULL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/traductor4bit.vhd" sub00/vhpl08 1560802183
+AR muxconcontsel_16a4 behavioral "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/MuxConContSel_16a4.vhd" sub00/vhpl07 1560802182
+MO key44 NULL key44.v vlg15/key44.bin 1560802177
+EN clkdivider NULL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/clkDivider.vhd" sub00/vhpl00 1560802177
+EN sevensegdisp NULL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/sevenSegDisp.vhd" sub00/vhpl02 1560802179
+EN top NULL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/top.vhf" sub00/vhpl04 1560802185
+EN muxconcontsel_16a4 NULL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/MuxConContSel_16a4.vhd" sub00/vhpl06 1560802181
+AR traductor4bit behavioral "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/traductor4bit.vhd" sub00/vhpl09 1560802184
+AR sevensegdisp behavioral "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/sevenSegDisp.vhd" sub00/vhpl03 1560802180
+AR top behavioral "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/top.vhf" sub00/vhpl05 1560802186
+MO flancoP NULL flancoP.v vlg1F/flanco_p.bin 1560802177
+MO registro NULL registro.v vlg67/registro.bin 1560802177

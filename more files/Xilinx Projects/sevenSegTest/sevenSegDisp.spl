@@ -1,0 +1,7 @@
+[Inputs]
+clk
+=q[3:0]=
+[Outputs]
+=led[7:0]=
+=digitSelect[3:0]=
+[BiDir]

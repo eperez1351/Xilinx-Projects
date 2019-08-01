@@ -1,0 +1,4 @@
+vhdtdtfi -lib work clk1hz.vhd -prj sevenSegTest -o clk1hz.spl -module clk1hz -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e clk1hz.spl {/home/erid/Documents/Xilinx Projects/sevenSegTest/clk1hz.sym} 
+vhdtdtfi -lib work clk1hz.vhd -prj sevenSegTest -o clk1hz.spl -module clk1hz -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w clk1hz.spl {/home/erid/Documents/Xilinx Projects/sevenSegTest/clk1hz.sym} 

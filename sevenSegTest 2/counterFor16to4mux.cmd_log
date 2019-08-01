@@ -1,0 +1,2 @@
+vhdtdtfi -lib work counterFor16to4mux.vhd -prj sevenSegTest -o counterFor16to4mux.spl -module counterFor16to4mux -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w counterFor16to4mux.spl {/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/counterFor16to4mux.sym} 

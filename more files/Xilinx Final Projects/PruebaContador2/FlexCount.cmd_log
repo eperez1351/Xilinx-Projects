@@ -1,0 +1,2 @@
+vhdtdtfi -lib work FlexCount.vhd -prj PruebaContador2 -o FlexCount.spl -module FlexCount -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e FlexCount.spl {/home/erid/Documents/Xilinx Final Projects/PruebaContador2/FlexCount.sym} 

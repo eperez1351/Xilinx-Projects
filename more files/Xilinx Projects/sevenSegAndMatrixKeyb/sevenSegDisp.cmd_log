@@ -1,0 +1,4 @@
+vhdtdtfi -lib work sevenSegDisp.vhd -prj sevenSegAndMatrixKeyb -o sevenSegDisp.spl -module sevenSegDisp -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sevenSegDisp.spl {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/sevenSegDisp.sym} 
+vhdtdtfi -lib work sevenSegDisp.vhd -prj sevenSegAndMatrixKeyb -o sevenSegDisp.spl -module sevenSegDisp -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sevenSegDisp.spl {/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/sevenSegDisp.sym} 

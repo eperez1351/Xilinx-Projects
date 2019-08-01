@@ -1,0 +1,5 @@
+set -tmpdir "/home/erid/Documents/Xilinx Projects/testRegister/xst/projnav.tmp"
+set -xsthdpdir "/home/erid/Documents/Xilinx Projects/testRegister/xst"
+elaborate
+-ifn clk1hz.prj
+-ifmt mixed

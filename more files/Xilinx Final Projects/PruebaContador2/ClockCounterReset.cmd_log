@@ -1,0 +1,4 @@
+vhdtdtfi -lib work ClockCounterReset.vhd -prj PruebaContador2 -o ClockCounterReset.spl -module ClockCounterReset -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ClockCounterReset.spl {/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockCounterReset.sym} 
+vhdtdtfi -lib work ClockCounterReset.vhd -prj PruebaContador2 -o ClockCounterReset.spl -module ClockCounterReset -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ClockCounterReset.spl {/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockCounterReset.sym} 

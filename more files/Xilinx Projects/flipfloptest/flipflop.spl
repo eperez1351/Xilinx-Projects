@@ -1,0 +1,7 @@
+[Inputs]
+s
+clk
+r
+[Outputs]
+=q[3:0]=
+[BiDir]

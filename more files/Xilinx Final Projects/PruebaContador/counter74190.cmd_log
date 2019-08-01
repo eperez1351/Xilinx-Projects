@@ -1,0 +1,6 @@
+vhdtdtfi -lib work counter74190.vhd -prj PruebaContador -o counter74190.spl -module counter74190 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter74190.spl {/home/erid/Documents/Xilinx Final Projects/PruebaContador/counter74190.sym} 
+vhdtdtfi -lib work counter74190.vhd -prj PruebaContador -o counter74190.spl -module counter74190 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter74190.spl {/home/erid/Documents/Xilinx Final Projects/PruebaContador/counter74190.sym} 
+vhdtdtfi -lib work counter74190.vhd -prj PruebaContador -o counter74190.spl -module counter74190 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w counter74190.spl {/home/erid/Documents/Xilinx Final Projects/PruebaContador/counter74190.sym} 

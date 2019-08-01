@@ -1,0 +1,2 @@
+vhdtdtfi -lib work flipflopJKasync.vhd -prj FlipFlops -o flipflopJKasync.spl -module flipflopJKasync -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e flipflopJKasync.spl /home/erid/Documents/GitHub/Xilinx-Projects/FlipFlops/flipflopJKasync.sym 

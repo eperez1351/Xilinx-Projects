@@ -1,0 +1,5 @@
+vhdtdtfi -prj VisualDynamic8seg -o "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/clkDivider.vhi" -module clkDivider -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work clkDivider.vhd 
+vhdtdtfi -lib work clkDivider.vhd -prj VisualDynamic8seg -o clkDivider.spl -module clkDivider -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w clkDivider.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/clkDivider.sym} 
+vhdtdtfi -lib work clkDivider.vhd -prj VisualDynamic8seg -o clkDivider.spl -module clkDivider -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w clkDivider.spl {/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/clkDivider.sym} 

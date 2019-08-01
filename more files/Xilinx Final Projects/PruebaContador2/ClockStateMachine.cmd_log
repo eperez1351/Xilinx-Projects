@@ -1,0 +1,4 @@
+vhdtdtfi -lib work ClockStateMachine.vhd -prj PruebaContador2 -o ClockStateMachine.spl -module ClockStateMachine -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ClockStateMachine.spl {/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockStateMachine.sym} 
+vhdtdtfi -lib work ClockStateMachine.vhd -prj PruebaContador2 -o ClockStateMachine.spl -module ClockStateMachine -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ClockStateMachine.spl {/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockStateMachine.sym} 

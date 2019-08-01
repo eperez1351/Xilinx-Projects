@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/clockdivider.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/clockdivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "clockdivider.ngc" clockdivider.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o clockdivider_map.ncd clockdivider.ngd clockdivider.pcf 
+par -w -intstyle ise -ol high -t 1 clockdivider_map.ncd clockdivider.ncd clockdivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml clockdivider.twx clockdivider.ncd -o clockdivider.twr clockdivider.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f clockdivider.ut clockdivider.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/clockdivider.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/clockdivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "clockdivider.ngc" clockdivider.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o clockdivider_map.ncd clockdivider.ngd clockdivider.pcf 
+par -w -intstyle ise -ol high -t 1 clockdivider_map.ncd clockdivider.ncd clockdivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml clockdivider.twx clockdivider.ncd -o clockdivider.twr clockdivider.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f clockdivider.ut clockdivider.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/clockdivider.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/clockdivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "clockdivider.ngc" clockdivider.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o clockdivider_map.ncd clockdivider.ngd clockdivider.pcf 
+par -w -intstyle ise -ol high -t 1 clockdivider_map.ncd clockdivider.ncd clockdivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml clockdivider.twx clockdivider.ncd -o clockdivider.twr clockdivider.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f clockdivider.ut clockdivider.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "clockdivider.ngc" clockdivider.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o clockdivider_map.ncd clockdivider.ngd clockdivider.pcf 
+par -w -intstyle ise -ol high -t 1 clockdivider_map.ncd clockdivider.ncd clockdivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml clockdivider.twx clockdivider.ncd -o clockdivider.twr clockdivider.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f clockdivider.ut clockdivider.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/clockdivider.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/clockdivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "clockdivider.ngc" clockdivider.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o clockdivider_map.ncd clockdivider.ngd clockdivider.pcf 
+par -w -intstyle ise -ol high -t 1 clockdivider_map.ncd clockdivider.ncd clockdivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml clockdivider.twx clockdivider.ncd -o clockdivider.twr clockdivider.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f clockdivider.ut clockdivider.ncd 

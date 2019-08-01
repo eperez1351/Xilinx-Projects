@@ -1,0 +1,5 @@
+set -tmpdir "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/xst/projnav.tmp"
+set -xsthdpdir "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/xst"
+elaborate
+-ifn mux4bit_4in1out.prj
+-ifmt mixed

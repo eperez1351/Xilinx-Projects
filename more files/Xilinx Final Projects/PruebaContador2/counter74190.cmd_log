@@ -1,0 +1,1 @@
+vhdtdtfi -prj PruebaContador2 -o "/home/erid/Documents/Xilinx Final Projects/PruebaContador2/counter74190.vhi" -module counter74190 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work counter74190.vhd 

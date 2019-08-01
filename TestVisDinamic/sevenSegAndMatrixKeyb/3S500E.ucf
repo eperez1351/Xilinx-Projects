@@ -1,0 +1,38 @@
+##############################################Core3S500E#################################################
+
+
+############################################### Mother Board ########################################
+NET "clk_in"  LOC = "p184"  ;
+NET "reset"  LOC = "p101"  ;
+
+NET "col[0]"  LOC = "p75"  ;
+NET "col[1]"  LOC = "p76"  ;
+NET "col[2]"  LOC = "p69"  ;
+NET "col[3]"  LOC = "p74"  ;
+NET "row[0]"  LOC = "p64"  ;
+NET "row[1]"  LOC = "p65"  ;
+NET "row[2]"  LOC = "p62"  ;
+NET "row[3]"  LOC = "p63"  ;
+
+NET "leds[0]"  LOC = "p119"  ;
+NET "leds[1]"  LOC = "p115"  ;
+NET "leds[2]"  LOC = "p112"  ;
+NET "leds[3]"  LOC = "p108"  ;
+NET "leds[4]"  LOC = "p106"  ;
+NET "leds[5]"  LOC = "p100"  ;
+NET "leds[6]"  LOC = "p98"  ;
+NET "leds[7]"  LOC = "p96"  ;
+
+NET "digitSelector[0]"  LOC = "p107"  ;
+NET "digitSelector[1]"  LOC = "p109"  ;
+NET "digitSelector[2]"  LOC = "p113"  ;
+NET "digitSelector[3]"  LOC = "p116"  ;
+#Pullup para teclado 4x4
+NET "col[0]"   PULLUP;
+NET "col[1]"   PULLUP;
+NET "col[2]"   PULLUP;
+NET "col[3]"   PULLUP;
+NET "row[0]"   PULLUP;
+NET "row[1]"   PULLUP;
+NET "row[2]"   PULLUP;
+NET "row[3]"   PULLUP;

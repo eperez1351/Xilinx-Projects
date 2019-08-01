@@ -1,0 +1,9 @@
+[Inputs]
+ck
+da
+[Outputs]
+p
+[BiDir]
+[ATTRIBUTES]
+VeriModel flancoP
+

@@ -1,0 +1,16 @@
+[Inputs]
+clk
+reset
+loadenb
+clkenb
+updw
+=load0[3:0]=
+=load1[3:0]=
+=load2[3:0]=
+=load3[3:0]=
+[Outputs]
+=hourd[3:0]=
+=houru[3:0]=
+=mind[3:0]=
+=minu[3:0]=
+[BiDir]

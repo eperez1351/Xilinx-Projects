@@ -1,0 +1,7 @@
+vhdl work "sevenSegDisp.vhd"
+verilog work "registro.v"
+vhdl work "mux4bit_4in1out.vhd"
+verilog work "key44.v"
+vhdl work "counterFor16to4mux.vhd"
+vhdl work "clkDivider.vhd"
+vhdl work "top.vhf"

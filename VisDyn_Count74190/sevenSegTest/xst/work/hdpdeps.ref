@@ -1,0 +1,37 @@
+V3 20
+FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/clk1hz.vhd" 2019/06/10.14:56:39 P.20131013
+EN work/clk1hz 1560368921 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/clk1hz.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk1hz/Behavioral 1560368922 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/clk1hz.vhd" \
+      EN work/clk1hz 1560368921
+FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/clkDivider.vhd" 2019/06/10.15:03:19 P.20131013
+EN work/clkDivider 1560368915 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/clkDivider.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clkDivider/Behavioral 1560368916 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/clkDivider.vhd" \
+      EN work/clkDivider 1560368915
+FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/sevenSegDisp.vhd" 2019/06/10.14:50:11 P.20131013
+EN work/sevenSegDisp 1560368917 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/sevenSegDisp.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/sevenSegDisp/Behavioral 1560368918 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/sevenSegDisp.vhd" \
+      EN work/sevenSegDisp 1560368917
+FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/top.vhf" 2019/06/10.14:37:21 P.20131013
+EN work/top 1560368923 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/top.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/top/BEHAVIORAL 1560368924 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/top.vhf" EN work/top 1560368923 \
+      CP clkDivider CP sevenSegDisp CP upcounter16bit CP clk1hz
+FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/upcounter16bit.vhd" 2019/06/10.14:24:11 P.20131013
+EN work/upcounter16bit 1560368919 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/upcounter16bit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/upcounter16bit/Behavioral 1560368920 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/upcounter16bit.vhd" \
+      EN work/upcounter16bit 1560368919

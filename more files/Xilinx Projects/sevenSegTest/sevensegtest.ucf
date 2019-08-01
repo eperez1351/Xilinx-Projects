@@ -1,0 +1,23 @@
+
+
+NET "clk"  LOC = "p184";
+NET "reset"  LOC = "p101"  ;
+
+NET "Display[0]"  LOC = "p119"  ;
+NET "Display[1]"  LOC = "p115"  ;
+NET "Display[2]"  LOC = "p112"  ;
+NET "Display[3]"  LOC = "p108"  ;
+NET "Display[4]"  LOC = "p106"  ;
+NET "Display[5]"  LOC = "p100"  ;
+NET "Display[6]"  LOC = "p98"  ;
+NET "Display[7]"  LOC = "p96"  ;
+
+NET "selector[0]"  LOC = "p107"  ;
+NET "selector[1]"  LOC = "p109"  ;
+NET "selector[2]"  LOC = "p113"  ;
+NET "selector[3]"  LOC = "p116"  ;
+
+#NET "selector[0]" LOC =" P68" ;
+#NET "selector[1]" LOC = "P78" ;
+#NET "selector[2]" LOC = "P83" ;
+#NET "selector[3]" LOC = "P89";

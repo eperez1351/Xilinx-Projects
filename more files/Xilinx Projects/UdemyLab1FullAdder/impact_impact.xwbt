@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/impact.xsl
+OUTFILE=/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder
+LICENSE=iMPACT
+USER_INFO=iMPACT

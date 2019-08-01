@@ -1,0 +1,5 @@
+[Inputs]
+clk
+[Outputs]
+=sel_out[1:0]=
+[BiDir]

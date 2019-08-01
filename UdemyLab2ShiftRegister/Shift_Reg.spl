@@ -1,0 +1,10 @@
+[Inputs]
+data_in
+reset
+clk
+[Outputs]
+A
+B
+C
+D
+[BiDir]

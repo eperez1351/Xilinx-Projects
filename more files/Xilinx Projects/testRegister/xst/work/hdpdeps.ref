@@ -1,0 +1,23 @@
+V3 12
+FL "/home/erid/Documents/Xilinx Projects/testRegister/clk1hz.vhd" 2019/06/10.14:56:39 P.20131013
+EN work/clk1hz 1560196235 \
+      FL "/home/erid/Documents/Xilinx Projects/testRegister/clk1hz.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk1hz/Behavioral 1560196236 \
+      FL "/home/erid/Documents/Xilinx Projects/testRegister/clk1hz.vhd" \
+      EN work/clk1hz 1560196235
+FL "/home/erid/Documents/Xilinx Projects/testRegister/ShiftReg4bitIN16bitOUT.vhd" 2019/06/10.15:50:15 P.20131013
+EN work/ShiftReg4bitIN16bitOUT 1560196237 \
+      FL "/home/erid/Documents/Xilinx Projects/testRegister/ShiftReg4bitIN16bitOUT.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ShiftReg4bitIN16bitOUT/Behavioral 1560196238 \
+      FL "/home/erid/Documents/Xilinx Projects/testRegister/ShiftReg4bitIN16bitOUT.vhd" \
+      EN work/ShiftReg4bitIN16bitOUT 1560196237
+FL "/home/erid/Documents/Xilinx Projects/testRegister/top.vhf" 2019/06/10.15:50:32 P.20131013
+EN work/top 1560196239 \
+      FL "/home/erid/Documents/Xilinx Projects/testRegister/top.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/top/BEHAVIORAL 1560196240 \
+      FL "/home/erid/Documents/Xilinx Projects/testRegister/top.vhf" EN work/top 1560196239 \
+      CP clk1hz CP ShiftReg4bitIN16bitOUT

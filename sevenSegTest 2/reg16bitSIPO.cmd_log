@@ -1,0 +1,3 @@
+vhdtdtfi -lib work reg16bitSIPO.vhd -prj sevenSegTest -o reg16bitSIPO.spl -module reg16bitSIPO -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work reg16bitSIPO.vhd -prj sevenSegTest -o reg16bitSIPO.spl -module reg16bitSIPO -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reg16bitSIPO.spl {/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/reg16bitSIPO.sym} 

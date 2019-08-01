@@ -1,0 +1,5 @@
+
+NET "a"  LOC = "p116"  ;
+
+NET "q"  LOC = "p102"  ;
+NET "q" LOC =" P68" ;

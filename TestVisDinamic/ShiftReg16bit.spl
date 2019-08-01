@@ -1,0 +1,12 @@
+[Inputs]
+clk
+rst
+clkenb
+=data_in[3:0]=
+[Outputs]
+=data_out16[15:0]=
+=data_out0[3:0]=
+=data_out1[3:0]=
+=data_out2[3:0]=
+=data_out3[3:0]=
+[BiDir]

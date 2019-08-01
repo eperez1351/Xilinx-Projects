@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jul 05 11:36:15 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P184" LEVEL 1;
+COMP "Display<0>" LOCATE = SITE "P119" LEVEL 1;
+COMP "Display<1>" LOCATE = SITE "P115" LEVEL 1;
+COMP "Display<2>" LOCATE = SITE "P112" LEVEL 1;
+COMP "selector<0>" LOCATE = SITE "P107" LEVEL 1;
+COMP "Display<3>" LOCATE = SITE "P108" LEVEL 1;
+COMP "selector<1>" LOCATE = SITE "P109" LEVEL 1;
+COMP "Display<4>" LOCATE = SITE "P106" LEVEL 1;
+COMP "selector<2>" LOCATE = SITE "P113" LEVEL 1;
+COMP "reset" LOCATE = SITE "P101" LEVEL 1;
+COMP "carry_out" LOCATE = SITE "P68" LEVEL 1;
+COMP "Display<5>" LOCATE = SITE "P100" LEVEL 1;
+COMP "selector<3>" LOCATE = SITE "P116" LEVEL 1;
+COMP "Display<6>" LOCATE = SITE "P98" LEVEL 1;
+COMP "Display<7>" LOCATE = SITE "P96" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

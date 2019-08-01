@@ -1,0 +1,9 @@
+AR clkdivider behavioral /home/erid/Documents/GitHub/Xilinx-Projects/sevenSegAndMatrixKeyb/clkDivider.vhd sub00/vhpl01 1560801113
+EN traductor4bit NULL /home/erid/Documents/GitHub/Xilinx-Projects/sevenSegAndMatrixKeyb/traductor4bit.vhd sub00/vhpl06 1560801116
+MO key44 NULL key44.v vlg15/key44.bin 1560801112
+EN clkdivider NULL /home/erid/Documents/GitHub/Xilinx-Projects/sevenSegAndMatrixKeyb/clkDivider.vhd sub00/vhpl00 1560801112
+EN sevensegdisp NULL /home/erid/Documents/GitHub/Xilinx-Projects/sevenSegAndMatrixKeyb/sevenSegDisp.vhd sub00/vhpl02 1560801114
+EN top NULL /home/erid/Documents/GitHub/Xilinx-Projects/sevenSegAndMatrixKeyb/top.vhf sub00/vhpl04 1560801118
+AR traductor4bit behavioral /home/erid/Documents/GitHub/Xilinx-Projects/sevenSegAndMatrixKeyb/traductor4bit.vhd sub00/vhpl07 1560801117
+AR sevensegdisp behavioral /home/erid/Documents/GitHub/Xilinx-Projects/sevenSegAndMatrixKeyb/sevenSegDisp.vhd sub00/vhpl03 1560801115
+AR top behavioral /home/erid/Documents/GitHub/Xilinx-Projects/sevenSegAndMatrixKeyb/top.vhf sub00/vhpl05 1560801119

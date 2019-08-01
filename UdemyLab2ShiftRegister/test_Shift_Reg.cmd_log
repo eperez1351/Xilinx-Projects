@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/test_Shift_Reg.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/test_Shift_Reg.syr" 

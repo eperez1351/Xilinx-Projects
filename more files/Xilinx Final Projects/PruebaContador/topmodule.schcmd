@@ -1,0 +1,50 @@
+select figure at 1401 1660 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1401 1558 8 -branches -sn=1
+select figure at 1391 1567 8 -branches -sn=1
+delete selection -sn=1
+add instance keyboard 272 1744 R0 -sn=1
+select figure at 734 1176 8 -branches -sn=1
+select figure at 484 1152 8 -branches -sn=1
+select figure at 501 1115 8 -branches -sn=1
+select all in 501 1115 978 1252 -branches -enclosed -sn=1
+move selection by -480 0 -keepConn -sn=1
+select figure at 951 1183 8 -branches -sn=1
+select figure at 535 1303 8 -branches -sn=1
+select figure at 958 1186 8 -wires -sn=1
+select figure at 963 1186 8 -wires -sn=1
+select figure at 856 1218 8 -wires -sn=1
+select figure at 961 1186 8 -wires -sn=1
+select figure at 954 1218 8 -wires -sn=1
+select figure at 978 1218 8 -wires -sn=1
+select figure at 963 1220 8 -wires -sn=1
+move wire at 960 1184 960 1232 to 848 1184 848 1232 -keepConn -sn=1
+select figure at 599 1298 8 -wires -sn=1
+select figure at 851 1342 8 -wires -sn=1
+move wire at 848 1184 848 1376 to 720 1184 720 1376 -keepConn -sn=1
+select figure at 804 1323 8 -wires -sn=1
+move iomarker at 832 1312 to 160 1312 R180 -keepConn -sn=1
+add autowire 272 1584 272 1312 8 -sn=1
+select figure at 196 1492 8 -wires -sn=1
+move wire at 192 1344 192 1584 to 256 1344 256 1584 -keepConn -sn=1
+select figure at 269 1333 8 -wires -sn=1
+move wire at 272 1312 272 1344 to 256 1312 256 1344 -keepConn -sn=1
+select figure at 369 1394 8 -wires -sn=1
+add autowire 720 1376 272 1648 8 -sn=1
+BeginGroup
+add wire 272 1776 240 1776 -sn=1
+add iomarker 240 1776 0 Input Unknown -sn=1
+EndGroup
+select figure at 183 1795 8 -wires -sn=1
+select figure at 171 1780 8 -wires -sn=1
+select figure at 171 1780 8 -wires -all -sn=1
+set attr NA|XLXN_23(3:0)|Name value row(3:0) -sn=1
+select figure at 604 1839 8 -wires -sn=1
+BeginGroup
+add wire 656 1648 688 1648 -sn=1
+add iomarker 688 1648 0 Output Unknown -sn=1
+EndGroup
+select figure at 773 1614 8 -wires -sn=1
+select figure at 773 1641 8 -wires -sn=1
+select figure at 773 1641 8 -wires -all -sn=1
+set attr NA|XLXN_24(3:0)|Name value col(3:0) -sn=1

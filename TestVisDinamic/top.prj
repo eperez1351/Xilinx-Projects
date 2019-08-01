@@ -1,0 +1,5 @@
+vhdl work "ShiftReg16bit.vhd"
+vhdl work "sevenSegDisp.vhd"
+verilog work "key44.v"
+vhdl work "clkDivider.vhd"
+vhdl work "top.vhf"

@@ -1,0 +1,62 @@
+V3 35
+FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/BCDcounter.vhd 2019/07/10.11:25:57 P.20131013
+EN work/BCDcounter 1562772369 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/BCDcounter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/BCDcounter/Behavioral 1562772370 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/BCDcounter.vhd \
+      EN work/BCDcounter 1562772369
+FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/clk1hz.vhd 2019/06/10.14:56:39 P.20131013
+EN work/clk1hz 1562772367 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/clk1hz.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk1hz/Behavioral 1562772368 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/clk1hz.vhd \
+      EN work/clk1hz 1562772367
+FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/clkDivider.vhd 2019/06/29.23:51:41 P.20131013
+EN work/clkDivider 1562772361 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/clkDivider.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clkDivider/Behavioral 1562772362 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/clkDivider.vhd \
+      EN work/clkDivider 1562772361
+FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/MuxConContSel_16a4.vhd 2019/06/17.15:05:10 P.20131013
+EN work/MuxConContSel_16a4 1562772365 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/MuxConContSel_16a4.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/MuxConContSel_16a4/Behavioral 1562772366 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/MuxConContSel_16a4.vhd \
+      EN work/MuxConContSel_16a4 1562772365
+FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/sevenSegDisp.vhd 2019/06/10.14:50:11 P.20131013
+EN work/sevenSegDisp 1562772363 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/sevenSegDisp.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/sevenSegDisp/Behavioral 1562772364 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/sevenSegDisp.vhd \
+      EN work/sevenSegDisp 1562772363
+FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/top.vhf 2019/07/10.11:22:18 P.20131013
+EN work/VisDyn_MUSER_top 1562772371 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/VisDyn_MUSER_top/BEHAVIORAL 1562772372 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/top.vhf \
+      EN work/VisDyn_MUSER_top 1562772371 CP clkDivider CP sevenSegDisp \
+      CP MuxConContSel_16a4 CP GND
+EN work/top 1562772373 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/top/BEHAVIORAL 1562772374 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/top.vhf EN work/top 1562772373 \
+      CP clk1hz CP VisDyn_MUSER_top CP BCDcounter CP AND2 CP VCC CP INV
+FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/VisDyn.vhf 2019/07/05.10:57:44 P.20131013
+EN work/VisDyn 1562772375 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/VisDyn.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/VisDyn/BEHAVIORAL 1562772376 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/VisDyn.vhf \
+      EN work/VisDyn 1562772375 CP clkDivider CP sevenSegDisp CP MuxConContSel_16a4 \
+      CP GND
+FL /home/erid/Documents/GitHub/Xilinx-Projects/VisDyn_Count74190/BCDcounter.vhd 2019/07/05.10:44:29 P.20131013

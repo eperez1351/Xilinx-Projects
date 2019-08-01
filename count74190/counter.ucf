@@ -1,0 +1,18 @@
+NET "clk" LOC = "P184" ;
+
+NET "reset" LOC = "P101" ;
+
+NET "count_out[0]" LOC =" P68" ;
+NET "count_out[1]" LOC = "P78" ;
+NET "count_out[2]" LOC = "P83" ;
+NET "count_out[3]" LOC = "P89";
+
+NET "updw"  LOC = "p75"  ;
+NET "loadenb"  LOC = "p76"  ;
+#NET "j"  LOC = "p69"  ;
+NET "clkenb"  LOC = "p74"  ;
+
+NET "updw" pullup;
+NET "loadenb" pullup;
+NET "clkenb" pullup;
+#NET "k" pullup;

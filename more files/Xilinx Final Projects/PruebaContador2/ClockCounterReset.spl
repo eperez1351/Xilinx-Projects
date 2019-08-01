@@ -1,0 +1,6 @@
+[Inputs]
+=in1[3:0]=
+=in2[3:0]=
+[Outputs]
+resetout
+[BiDir]

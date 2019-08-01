@@ -1,0 +1,9 @@
+EN anothershiftreg NULL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.vhd" sub00/vhpl06 1560521497
+AR clk1hz behavioral "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/clk1hz.vhd" sub00/vhpl03 1560366385
+EN top NULL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/top.vhf" sub00/vhpl04 1560528844
+EN shift_reg NULL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/Shift_Reg.vhd" sub00/vhpl00 1560528842
+AR anothershiftreg behavioral "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.vhd" sub00/vhpl07 1560521498
+EN test_shift_reg NULL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/test_Shift_Reg.vhd" sub00/vhpl08 1560522260
+EN clk1hz NULL "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/clk1hz.vhd" sub00/vhpl02 1560366384
+AR shift_reg behavior "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/Shift_Reg.vhd" sub00/vhpl01 1560528843
+AR top behavioral "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/top.vhf" sub00/vhpl05 1560528845

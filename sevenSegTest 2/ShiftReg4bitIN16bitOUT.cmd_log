@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ShiftReg4bitIN16bitOUT.vhd -prj sevenSegTest -o ShiftReg4bitIN16bitOUT.spl -module ShiftReg4bitIN16bitOUT -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ShiftReg4bitIN16bitOUT.spl {/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/ShiftReg4bitIN16bitOUT.sym} 

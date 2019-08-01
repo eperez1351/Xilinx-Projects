@@ -1,0 +1,14 @@
+AR clk1hz behavioral "/home/erid/Documents/Xilinx Final Projects/PruebaContador/clk1hz.vhd" sub00/vhpl03 1563304932
+EN traductor4bit NULL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/traductor4bit.vhd" sub00/vhpl07 1563304927
+EN keyboard NULL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/keyboard.vhf" sub00/vhpl11 1563304937
+MO key44 NULL key44.v vlg15/key44.bin 1563304927
+AR keyboard_muser_topmodule behavioral "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.vhf" sub00/vhpl10 1563304934
+AR topmodule behavioral "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.vhf" sub00/vhpl05 1563304936
+AR keyboard behavioral "/home/erid/Documents/Xilinx Final Projects/PruebaContador/keyboard.vhf" sub00/vhpl12 1563304938
+AR counter74190 behavioral "/home/erid/Documents/Xilinx Final Projects/PruebaContador/counter74190.vhd" sub00/vhpl01 1563304930
+EN keyboard_muser_topmodule NULL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.vhf" sub00/vhpl09 1563304933
+EN clk1hz NULL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/clk1hz.vhd" sub00/vhpl02 1563304931
+EN topmodule NULL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/topmodule.vhf" sub00/vhpl04 1563304935
+EN carrygenerator NULL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/CarryGenerator.vhd" sub00/vhpl06 1563197680
+EN counter74190 NULL "/home/erid/Documents/Xilinx Final Projects/PruebaContador/counter74190.vhd" sub00/vhpl00 1563304929
+AR traductor4bit behavioral "/home/erid/Documents/Xilinx Final Projects/PruebaContador/traductor4bit.vhd" sub00/vhpl08 1563304928

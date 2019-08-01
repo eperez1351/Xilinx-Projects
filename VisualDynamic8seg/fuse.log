@@ -1,0 +1,14 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/erid/Documents/Xilinx Projects/VisualDynamic8seg/top_isim_beh.exe -prj /home/erid/Documents/Xilinx Projects/VisualDynamic8seg/top_beh.prj work.top work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/key44.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/register4bit_sipo.vhd" into library work
+Parsing VHDL file "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/mux4bit_4in1out.vhd" into library work
+Parsing VHDL file "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/LED8.vhd" into library work
+Parsing VHDL file "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/counterFor16to4mux.vhd" into library work
+ERROR:HDLCompiler:1731 - "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/counterFor16to4mux.vhd" Line 46: found '0' definitions of operator "+", cannot determine exact overloaded matching definition for "+"
+ERROR:HDLCompiler:854 - "/home/erid/Documents/Xilinx Projects/VisualDynamic8seg/counterFor16to4mux.vhd" Line 37: Unit <behavioral> ignored due to previous errors.
+VHDL file /home/erid/Documents/Xilinx Projects/VisualDynamic8seg/counterFor16to4mux.vhd ignored due to errors

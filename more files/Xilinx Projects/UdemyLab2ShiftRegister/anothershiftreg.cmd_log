@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "anothershiftreg.ngc" anothershiftreg.ngd  
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "anothershiftreg.ngc" anothershiftreg.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o anothershiftreg_map.ncd anothershiftreg.ngd anothershiftreg.pcf 
+par -w -intstyle ise -ol high -t 1 anothershiftreg_map.ncd anothershiftreg.ncd anothershiftreg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml anothershiftreg.twx anothershiftreg.ncd -o anothershiftreg.twr anothershiftreg.pcf 
+bitgen -intstyle ise -f anothershiftreg.ut anothershiftreg.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "anothershiftreg.ngc" anothershiftreg.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o anothershiftreg_map.ncd anothershiftreg.ngd anothershiftreg.pcf 
+par -w -intstyle ise -ol high -t 1 anothershiftreg_map.ncd anothershiftreg.ncd anothershiftreg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml anothershiftreg.twx anothershiftreg.ncd -o anothershiftreg.twr anothershiftreg.pcf 
+bitgen -intstyle ise -f anothershiftreg.ut anothershiftreg.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.xst" -ofn "/home/erid/Documents/Xilinx Projects/UdemyLab2ShiftRegister/anothershiftreg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "anothershiftreg.ngc" anothershiftreg.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o anothershiftreg_map.ncd anothershiftreg.ngd anothershiftreg.pcf 
+par -w -intstyle ise -ol high -t 1 anothershiftreg_map.ncd anothershiftreg.ncd anothershiftreg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml anothershiftreg.twx anothershiftreg.ncd -o anothershiftreg.twr anothershiftreg.pcf 
+bitgen -intstyle ise -f anothershiftreg.ut anothershiftreg.ncd 

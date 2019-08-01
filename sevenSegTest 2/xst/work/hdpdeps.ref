@@ -1,0 +1,101 @@
+V3 55
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/BCDcounter.vhd" 2019/07/10.15:33:54 P.20131013
+EN work/BCDcounter 1562787254 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/BCDcounter.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/BCDcounter/Behavioral 1562787255 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/BCDcounter.vhd" \
+      EN work/BCDcounter 1562787254
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/clk1hz.vhd" 2019/06/10.14:56:39 P.20131013
+EN work/clk1hz 1562787248 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/clk1hz.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk1hz/Behavioral 1562787249 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/clk1hz.vhd" \
+      EN work/clk1hz 1562787248
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/clkDivider.vhd" 2019/06/29.23:51:41 P.20131013
+EN work/clkDivider 1562787244 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/clkDivider.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clkDivider/Behavioral 1562787245 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/clkDivider.vhd" \
+      EN work/clkDivider 1562787244
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/FlexibleCounter.vhd" 2019/07/03.15:36:17 P.20131013
+EN work/FlexibleCounter 1562182589 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/FlexibleCounter.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/FlexibleCounter/Behavioral 1562182590 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/FlexibleCounter.vhd" \
+      EN work/FlexibleCounter 1562182589
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/keyboard.vhf" 2019/07/09.14:04:48 P.20131013
+EN work/keyboard 1562787260 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/keyboard.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/keyboard/BEHAVIORAL 1562787261 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/keyboard.vhf" \
+      EN work/keyboard 1562787260 CP key44 CP traductor4bit
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/MuxConContSel_16a4.vhd" 2019/06/17.15:05:10 P.20131013
+EN work/MuxConContSel_16a4 1562787250 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/MuxConContSel_16a4.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/MuxConContSel_16a4/Behavioral 1562787251 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/MuxConContSel_16a4.vhd" \
+      EN work/MuxConContSel_16a4 1562787250
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/reg16bitSIPO.vhd" 2019/07/09.15:44:58 P.20131013
+EN work/reg16bitSIPO 1562787252 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/reg16bitSIPO.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/reg16bitSIPO/Behavioral 1562787253 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/reg16bitSIPO.vhd" \
+      EN work/reg16bitSIPO 1562787252
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/sevenSegDisp.vhd" 2019/06/10.14:50:11 P.20131013
+EN work/sevenSegDisp 1562787246 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/sevenSegDisp.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/sevenSegDisp/Behavioral 1562787247 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/sevenSegDisp.vhd" \
+      EN work/sevenSegDisp 1562787246
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/ShiftReg4bitIN16bitOUT.vhd" 2019/07/08.14:07:40 P.20131013
+EN work/ShiftReg4bitIN16bitOUT 1562695531 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/ShiftReg4bitIN16bitOUT.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ShiftReg4bitIN16bitOUT/Behavioral 1562695532 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/ShiftReg4bitIN16bitOUT.vhd" \
+      EN work/ShiftReg4bitIN16bitOUT 1562695531
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf" 2019/07/10.15:33:57 P.20131013
+EN work/keyboard_MUSER_top 1562787256 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/keyboard_MUSER_top/BEHAVIORAL 1562787257 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf" \
+      EN work/keyboard_MUSER_top 1562787256 CP key44 CP traductor4bit
+EN work/top 1562787258 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/top/BEHAVIORAL 1562787259 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/top.vhf" \
+      EN work/top 1562787258 CP clkDivider CP sevenSegDisp CP clk1hz \
+      CP MuxConContSel_16a4 CP keyboard_MUSER_top CP reg16bitSIPO CP BCDcounter \
+      CP GND
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/traductor4bit.vhd" 2019/07/09.14:29:35 P.20131013
+EN work/traductor4bit 1562787242 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/traductor4bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/traductor4bit/Behavioral 1562787243 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/traductor4bit.vhd" \
+      EN work/traductor4bit 1562787242
+FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/upcounter16bit.vhd" 2019/06/28.09:24:39 P.20131013
+EN work/upcounter16bit 1561728289 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/upcounter16bit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/upcounter16bit/Behavioral 1561728290 \
+      FL "/home/erid/Documents/GitHub/Xilinx-Projects/sevenSegTest 2/upcounter16bit.vhd" \
+      EN work/upcounter16bit 1561728289
+FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/clk1hz.vhd" 2019/06/10.14:56:39 P.20131013
+FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/clkDivider.vhd" 2019/06/10.15:03:19 P.20131013
+FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/sevenSegDisp.vhd" 2019/06/10.14:50:11 P.20131013
+FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/top.vhf" 2019/06/10.14:37:21 P.20131013
+FL "/home/erid/Documents/Xilinx Projects/sevenSegTest/upcounter16bit.vhd" 2019/06/10.14:24:11 P.20131013

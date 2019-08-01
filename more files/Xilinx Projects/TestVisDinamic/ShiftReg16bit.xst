@@ -1,0 +1,5 @@
+set -tmpdir "/home/erid/Documents/Xilinx Projects/TestVisDinamic/xst/projnav.tmp"
+set -xsthdpdir "/home/erid/Documents/Xilinx Projects/TestVisDinamic/xst"
+elaborate
+-ifn ShiftReg16bit.prj
+-ifmt mixed

@@ -1,0 +1,38 @@
+V3 23
+FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/clkDivider.vhd" 2019/06/07.11:16:07 P.20131013
+EN work/clkDivider 1560802177 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/clkDivider.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clkDivider/Behavioral 1560802178 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/clkDivider.vhd" \
+      EN work/clkDivider 1560802177
+FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/MuxConContSel_16a4.vhd" 2019/06/17.15:05:10 P.20131013
+EN work/MuxConContSel_16a4 1560802181 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/MuxConContSel_16a4.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/MuxConContSel_16a4/Behavioral 1560802182 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/MuxConContSel_16a4.vhd" \
+      EN work/MuxConContSel_16a4 1560802181
+FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/sevenSegDisp.vhd" 2019/06/08.15:48:26 P.20131013
+EN work/sevenSegDisp 1560802179 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/sevenSegDisp.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/sevenSegDisp/Behavioral 1560802180 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/sevenSegDisp.vhd" \
+      EN work/sevenSegDisp 1560802179
+FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/top.vhf" 2019/06/17.16:09:34 P.20131013
+EN work/top 1560802185 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/top.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/top/BEHAVIORAL 1560802186 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/top.vhf" \
+      EN work/top 1560802185 CP clkDivider CP sevenSegDisp CP key44 \
+      CP MuxConContSel_16a4 CP flancoP CP registro CP traductor4bit
+FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/traductor4bit.vhd" 2019/06/17.15:51:15 P.20131013
+EN work/traductor4bit 1560802183 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/traductor4bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/traductor4bit/Behavioral 1560802184 \
+      FL "/home/erid/Documents/Xilinx Projects/sevenSegAndMatrixKeyb/traductor4bit.vhd" \
+      EN work/traductor4bit 1560802183

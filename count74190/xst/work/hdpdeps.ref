@@ -1,0 +1,8 @@
+V3 3
+FL /home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.vhd 2019/06/26.11:35:28 P.20131013
+EN work/BCDcounter 1561563332 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/BCDcounter/Behavioral 1561563333 \
+      FL /home/erid/Documents/GitHub/Xilinx-Projects/count74190/BCDcounter.vhd \
+      EN work/BCDcounter 1561563332

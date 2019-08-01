@@ -1,0 +1,17 @@
+V3 8
+FL "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/Full_Adder_2.vhd" 2016/01/31.15:40:00 P.20131013
+FL "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/test_Full_Adder_2.vhd" 2016/01/31.15:40:00 P.20131013
+EN work/test_Full_Adder_2 0 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/test_Full_Adder_2.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB std/TEXTIO 1381692176 PB ieee/STD_LOGIC_TEXTIO 1381692180
+AR work/test_Full_Adder_2/test 0 \
+      FL "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/test_Full_Adder_2.vhd" \
+      EN work/test_Full_Adder_2 0 CP Full_Adder_2
+FL "/home/erid/vhdl-and-fpga-development-for-beginners-and-intermediates/labfiles/Lab-1/Lab 1 Full Adder/BASYS 2/Full_Adder_2.vhd" 2016/01/31.15:40:00 P.20131013
+EN work/Full_Adder_2 1558107005 \
+      FL "/home/erid/vhdl-and-fpga-development-for-beginners-and-intermediates/labfiles/Lab-1/Lab 1 Full Adder/BASYS 2/Full_Adder_2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Full_Adder_2/behavior 1558107006 \
+      FL "/home/erid/vhdl-and-fpga-development-for-beginners-and-intermediates/labfiles/Lab-1/Lab 1 Full Adder/BASYS 2/Full_Adder_2.vhd" \
+      EN work/Full_Adder_2 1558107005

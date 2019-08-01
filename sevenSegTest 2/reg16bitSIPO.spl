@@ -1,0 +1,11 @@
+[Inputs]
+rst
+clk
+clkenb
+=q[3:0]=
+[Outputs]
+=d1[3:0]=
+=d2[3:0]=
+=d3[3:0]=
+=d4[3:0]=
+[BiDir]

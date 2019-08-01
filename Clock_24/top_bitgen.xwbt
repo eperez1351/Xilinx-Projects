@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/top.ncd
+OUTFILE=/home/erid/Documents/GitHub/Xilinx-Projects/Clock_24/top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=/home/erid/Documents/GitHub/Xilinx-Projects/Clock_24
+LICENSE=WebPack
+USER_INFO=211533714_0_0_734

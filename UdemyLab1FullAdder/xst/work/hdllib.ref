@@ -1,0 +1,3 @@
+EN full_adder_2 NULL "/home/erid/vhdl-and-fpga-development-for-beginners-and-intermediates/labfiles/Lab-1/Lab 1 Full Adder/BASYS 2/Full_Adder_2.vhd" sub00/vhpl00 1558107005
+EN test_full_adder_2 NULL "/home/erid/Documents/Xilinx Projects/UdemyLab1FullAdder/test_Full_Adder_2.vhd" sub00/vhpl02 1558103329
+AR full_adder_2 behavior "/home/erid/vhdl-and-fpga-development-for-beginners-and-intermediates/labfiles/Lab-1/Lab 1 Full Adder/BASYS 2/Full_Adder_2.vhd" sub00/vhpl01 1558107006

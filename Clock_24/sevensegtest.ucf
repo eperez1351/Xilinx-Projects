@@ -1,0 +1,35 @@
+###Core3S500E###
+
+NET "clk"  LOC = "p184";
+
+NET "reset"  LOC = "p101"  ;
+#NET "led1[0]" LOC =" P68" ;
+#NET "dummy" LOC = "P78" ;
+#NET "led1[2]" LOC = "P83" ;
+#NET "led1[3]" LOC = "P89";
+NET "carry_out" LOC =" P68" ;
+
+
+###seven segment display
+NET "Display[0]"  LOC = "p119"  ;
+NET "Display[1]"  LOC = "p115"  ;
+NET "Display[2]"  LOC = "p112"  ;
+NET "Display[3]"  LOC = "p108"  ;
+NET "Display[4]"  LOC = "p106"  ;
+NET "Display[5]"  LOC = "p100"  ;
+NET "Display[6]"  LOC = "p98"  ;
+NET "Display[7]"  LOC = "p96"  ;
+
+NET "selector[0]"  LOC = "p107"  ;
+NET "selector[1]"  LOC = "p109"  ;
+NET "selector[2]"  LOC = "p113"  ;
+NET "selector[3]"  LOC = "p116"  ;
+#####buttons
+
+#NET "updw_bttn"  LOC = "p75"  ;
+#NET "enable"  LOC = "p76"  ;
+#NET "8I/Os_1_3"  LOC = "p69"  ;
+#NET "8I/Os_1_4"  LOC = "p74"  ;
+
+#net "updw_bttn" pullup;
+#net "enable" pullup;

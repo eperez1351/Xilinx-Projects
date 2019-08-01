@@ -1,0 +1,2 @@
+vhdtdtfi -lib work counter74190.vhd -lib work ClockCounter.vhd -prj PruebaContador2 -o ClockCounter.spl -module ClockCounter -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ClockCounter.spl {/home/erid/Documents/Xilinx Final Projects/PruebaContador2/ClockCounter.sym} 

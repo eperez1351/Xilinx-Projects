@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -refsym keyboard {/home/erid/Documents/Xilinx Final Projects/PruebaContador2/keyboard.sch} {/home/erid/Documents/Xilinx Final Projects/PruebaContador2/keyboard.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym keyboard {/home/erid/Documents/Xilinx Final Projects/PruebaContador2/keyboard.sch} {/home/erid/Documents/Xilinx Final Projects/PruebaContador2/keyboard.sym} 

@@ -1,0 +1,34 @@
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/gatetest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/gatetest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "gatetest.ngc" gatetest.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o gatetest_map.ncd gatetest.ngd gatetest.pcf 
+par -w -intstyle ise -ol high -t 1 gatetest_map.ncd gatetest.ncd gatetest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml gatetest.twx gatetest.ncd -o gatetest.twr gatetest.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f gatetest.ut gatetest.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "gatetest.ngc" gatetest.ngd  
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/gatetest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/gatetest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "gatetest.ngc" gatetest.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o gatetest_map.ncd gatetest.ngd gatetest.pcf 
+par -w -intstyle ise -ol high -t 1 gatetest_map.ncd gatetest.ncd gatetest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml gatetest.twx gatetest.ncd -o gatetest.twr gatetest.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f gatetest.ut gatetest.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "gatetest.ngc" gatetest.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o gatetest_map.ncd gatetest.ngd gatetest.pcf 
+par -w -intstyle ise -ol high -t 1 gatetest_map.ncd gatetest.ncd gatetest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml gatetest.twx gatetest.ncd -o gatetest.twr gatetest.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f gatetest.ut gatetest.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/gatetest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/gatetest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "gatetest.ngc" gatetest.ngd  
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/gatetest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/gatetest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "gatetest.ngc" gatetest.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o gatetest_map.ncd gatetest.ngd gatetest.pcf 
+par -w -intstyle ise -ol high -t 1 gatetest_map.ncd gatetest.ncd gatetest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml gatetest.twx gatetest.ncd -o gatetest.twr gatetest.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f gatetest.ut gatetest.ncd 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/gatetest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/gatetest.syr" 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/gatetest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/gatetest.syr" 
+xst -intstyle ise -ifn "/home/erid/Documents/Xilinx Projects/Test/gatetest.xst" -ofn "/home/erid/Documents/Xilinx Projects/Test/gatetest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc 3S500E.ucf -p xc3s500e-pq208-5 "gatetest.ngc" gatetest.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o gatetest_map.ncd gatetest.ngd gatetest.pcf 
+par -w -intstyle ise -ol high -t 1 gatetest_map.ncd gatetest.ncd gatetest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml gatetest.twx gatetest.ncd -o gatetest.twr gatetest.pcf -ucf 3S500E.ucf 
+bitgen -intstyle ise -f gatetest.ut gatetest.ncd 
